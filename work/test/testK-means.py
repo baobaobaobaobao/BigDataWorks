@@ -64,7 +64,23 @@ def transform(dataset, n_features=100):
     #print (X.toarray().shape)
     return X, vectorizer
 
-###########接下来就是我们大胆的测试。尝试画出图来，但是只针对于2维的，其他的就无能为力了。
+######################这是我们的k-means解决结果。在矩阵中显示出来。就是把每个论文属于的分类显示出来，并且还能显示每个分类的个数###########
+'''
+num_clusters = 10
+km_cluster = KMeans(n_clusters=num_clusters)
+# 返回各自文本的所被分配到的类索引
+Y,vec=transform(delword())
+X=Y.toarray()
+result = km_cluster.fit_predict(X)
+print (result)
+result = list(km_cluster.predict(Y))   #这是我们的k-means解决结果。在矩阵中显示出来。就是把每个论文属于的分类显示出来
+print('Cluster distribution:')
+print(dict([(i, result.count(i)) for i in result]))   #并且还能显示每个分类的个数
+
+'''
+
+
+###########接下来就是我们大胆的测试。尝试画出图来，哈哈哈
 
 # 返回各自文本的所被分配到的类索引
 Y,vec=transform(delword())
@@ -80,9 +96,6 @@ x1 = X[label_pred == 1]
 x2 = X[label_pred == 2]
 x3 = X[label_pred == 3]
 x4 = X[label_pred == 4]
-
-
-
 plt.scatter(x0[:, 0], x0[:, 1], c = "red", marker='o', label='label0')
 plt.scatter(x1[:, 0], x1[:, 1], c = "green", marker='*', label='label1')
 plt.scatter(x2[:, 0], x2[:, 1], c = "blue", marker='+', label='label2')
