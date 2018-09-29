@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 import requests
 from lxml import etree
 
+'''
+爬取所有数据
+'''
 url = 'https://dblp.uni-trier.de/pers/hd/z/Zhang:Jun'
 
 #获取我们的所有论文的页面链接并放在page_link中，

@@ -8,9 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans, MiniBatchKMeans
 import codecs
 
-'''
-本文根据将文档转化为 TFIDF矩阵矩阵，再用k-mean方法来分成十个类。并作图分析
-'''
+# This document is to myWorks the DFIDF to generate the classification matrix.
 
 
 # ---------------------------将papers.txt文档进行分词处理---------------------------#
@@ -70,68 +68,31 @@ def transform(dataset, n_features=100):
 
 #transform(delword())   #完成IF-iDF分配权重。
 
-
-
-# test()
-
-# -----------------------将文档转化为 词频矩阵-----------------------#
-def wordFrequency():
-    # 语料
-    corpus = delword()
-    # 将文本中的词语转换为词频矩阵
-    vectorizer = CountVectorizer()
-    # 计算个词语出现的次数
-    X = vectorizer.fit_transform(corpus)
-    # 获取词袋中所有文本关键词
-    word = vectorizer.get_feature_names()
-    print(word)
-    # 查看词频结果
-    print(X.toarray())
-
-
-# -----------------------将文档转化为 TFIDF矩阵矩阵-----------------------#
-def tfidf():
-    # 语料
-    corpus = delword()
-    # 类调用
-    transformer = TfidfTransformer()
-   # print(transformer)
-    # 将文本中的词语转换为词频矩阵
-    vectorizer = CountVectorizer()
-    # 计算个词语出现的次数
-    X = vectorizer.fit_transform(corpus)
-    # 将词频矩阵X统计成TF-IDF值
-    tfidf = transformer.fit_transform(X)
-    # 查看数据结构 tfidf[i][j]表示i类文本中的tf-idf权重
-
-    weight = tfidf.toarray()
-    clf = KMeans(n_clusters=10)
-    s = clf.fit(weight)
-   # print(s)
-
-    # 10个中心点
-    # print(clf.cluster_centers_)
-    print(clf.labels_)  # ------------------------!!!!!!!输出每个样本的类别
-    result = list(clf.labels_)
+# 使用我们的k-means方法。
+def train(X, vectorizer, true_k=10, minibatch=False, showLable=False):
+    km = KMeans(n_clusters=true_k, init='k-means++', max_iter=300, n_init=1, verbose=False)
+    km.fit(X)
+    #########print (km.labels_) #输出矩阵对应的类别#########
+    if showLable:
+        print("Top terms per cluster:")
+        order_centroids = km.cluster_centers_.argsort()[:, ::-1]
+        terms = vectorizer.get_feature_names()  # 获取词袋模型中的所有词语
+        # print (vectorizer.get_stop_words())
+        for i in range(true_k):
+            print("Cluster %d:" % i, end='')
+            for ind in order_centroids[i, :10]:
+                print(' %s' % terms[ind], end='')
+            print()
+    result = list(km.predict(X))
+    print (km.predict(X))  #输出每篇论文属于的类别
+    print (len(result))
     print('Cluster distribution:')
-    data=dict([(i,  result.count(i)) for i in  result])
-    print  (data[0])
-    lists =[]
-    for i in range(10):
-     lists.append(data[i])
-    print ('输出每个分类以及分到这一类的个数并画图')
-    print(lists)
-    plt.bar(range(len(lists)), lists)
-    plt.show()
-    print(dict([(i,  result.count(i)) for i in  result]))  # 输出类别以及相应的数目
-    return weight
+    print(dict([(i, result.count(i)) for i in result]))  #输出类别以及相应的数目
+   # print(km.labels_)
 
 
-    tfidf()
+# myWorks()
 
-
-
-'''
 def out():
     dataset = delword()    #数据格式为[ 'Higher order ADI method completed Richardson extrapolation solving unsteady convect
     X, vectorizer = transform(dataset, n_features=732)  #对数据进行训练
@@ -139,4 +100,3 @@ def out():
 
 out()
 
-'''
