@@ -60,6 +60,7 @@ def delword():
 
 def transform(dataset, n_features=100):
     vectorizer = TfidfVectorizer(max_df=0.5, max_features=n_features, min_df=1, use_idf=True)
+    #vectorizer=TfidfTransformer();
     #vectorizer=TfidfVectorizer.fit(dataset)
     X = vectorizer.fit_transform(dataset)
     # print(X)
@@ -105,6 +106,8 @@ def tfidf():
     # 查看数据结构 tfidf[i][j]表示i类文本中的tf-idf权重
 
     weight = tfidf.toarray()
+
+    print (weight)
     clf = KMeans(n_clusters=10)
     s = clf.fit(weight)
    # print(s)
@@ -127,7 +130,7 @@ def tfidf():
     return weight
 
 
-    tfidf()
+tfidf()
 
 
 

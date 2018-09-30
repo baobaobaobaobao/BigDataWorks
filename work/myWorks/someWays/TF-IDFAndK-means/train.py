@@ -57,6 +57,7 @@ def delword():
 # ---------------------------将数据集进行训练---------------------------#
 
 def transform(dataset, n_features=100):
+    '''采用TfidfVectorizer提取文本特征向量'''
     vectorizer = TfidfVectorizer(max_df=0.5, max_features=n_features, min_df=1, use_idf=True)
     #vectorizer=TfidfVectorizer.fit(dataset)
     X = vectorizer.fit_transform(dataset)
