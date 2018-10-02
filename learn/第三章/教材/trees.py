@@ -1,3 +1,4 @@
+# _*_ coding:utf-8 _*_
 '''
 Created on Oct 12, 2010
 Decision Tree Source Code for Machine Learning in Action Ch. 3
@@ -6,7 +7,7 @@ Decision Tree Source Code for Machine Learning in Action Ch. 3
 from math import log
 import operator
 
-
+#创建数据集
 def createDataSet():
     dataSet = [[1, 1, 'yes'],
                [1, 1, 'yes'],
@@ -18,6 +19,7 @@ def createDataSet():
     return dataSet, labels
 
 
+#计算香农的值，帮助我们计算划分的特征是否最优。
 def calcShannonEnt(dataSet):
     numEntries = len(dataSet)
     labelCounts = {}
@@ -33,6 +35,7 @@ def calcShannonEnt(dataSet):
     return shannonEnt
 
 
+#按照给定特征划分数据集
 def splitDataSet(dataSet, axis, value):
     retDataSet = []
     for featVec in dataSet:
@@ -44,7 +47,8 @@ def splitDataSet(dataSet, axis, value):
 
 
 '''
-choose most good way to split   big data
+function:choose best good feature to split   big data  
+return  the best feature subscript
 '''
 def chooseBestFeatureToSplit(dataSet):
     numFeatures = len(dataSet[0]) - 1      #the last column is used for the labels
@@ -64,7 +68,7 @@ def chooseBestFeatureToSplit(dataSet):
             bestFeature = i
     return bestFeature
 
-
+#利用分类名称的列表，创建值为classList中唯一值的数据字典。统计出出现类标签数量最多的那个类。
 def majorityCnt(classList):
     classCount={}
     for vote in classList:
@@ -74,6 +78,8 @@ def majorityCnt(classList):
     return sortedClassCount[0][0]
 
 
+
+#创建我们的决策树，需要数据集和标签列表来实现。
 def createTree(dataSet, labels):
     classList = [example[-1] for example in dataSet]
     if classList.count(classList[0]) == len(classList):
@@ -92,6 +98,8 @@ def createTree(dataSet, labels):
     return myTree
 
 
+#使用决策树的分类函数,inputTree为树的构造好了的结果，featlabels为标签，testVec为测试数据。
+#inputTree为我们数据集进行训练后的结果。
 def classify(inputTree, featLabels, testVec):
     firstStr = inputTree.keys()[0]
     secondDict = inputTree[firstStr]
@@ -105,13 +113,23 @@ def classify(inputTree, featLabels, testVec):
     return classLabel
 
 
+
+#树的预定义结构，方便测试
+def retrieveTree(i):
+    listOfTrees = [{'no surfacing': {0: 'no', 1: {'flippers': {0: 'no', 1: 'yes'}}}},
+                   {'no surfacing': {0: 'no', 1: {'flippers': {0: {'head': {0: 'no', 1: 'yes'}}, 1: 'no'}}}}
+                   ]
+    return listOfTrees[i]
+
+
+#存储我们的数据到文件中
 def storeTree(inputTree, filename):
     import pickle
     fw = open(filename, 'w')
     pickle.dump(inputTree, fw)
     fw.close()
 
-
+#从文件中读取我们的树数据，哈哈哈
 def grabTree(filename):
     import pickle
     fr = open(filename)
