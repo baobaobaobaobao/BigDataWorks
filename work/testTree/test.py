@@ -12,6 +12,8 @@ from sklearn.model_selection import train_test_split  # 用于划分训练集与
 
 
 
+
+
 # 决策树， 训练
 
 data = pd.read_excel('test.xlsx')
