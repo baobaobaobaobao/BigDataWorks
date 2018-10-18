@@ -1,0 +1,672 @@
+Higher order ADI method with completed Richardson extrapolation for solving unsteady convection-diffusion equations.@Ruxin Dai,Jun Zhang,Yin Wang@2016
+Trust-aware Privacy-Preserving Recommender System.@Xiwei Wang,Jun Zhang,Yin Wang@2016
+Automated Dimension Determination for NMF-based Incremental Collaborative Filtering.@Xiwei Wang,Jun Zhang,Ruxin Dai@2015
+A 15-point high-order compact scheme with multigrid computation for solving 3D convection diffusion equations.@Yin Wang,Su Yu,Ruxin Dai,Jun Zhang@2015
+Multiple coarse grid acceleration for multiscale multigrid computation.@Ruxin Dai,Jun Zhang,Yin Wang@2014
+Using incremental clustering technique in collaborative filtering data update.@Xiwei Wang,Jun Zhang@2014
+Fast and high accuracy multiscale multigrid method with multiple coarse grid updating strategy for the 3D convection-diffusion equation.@Ruxin Dai,Yin Wang,Jun Zhang@2013
+A parallel strategy for predicting the secondary structure of polycistronic microRNAs.@Dianwei Han,Guiliang Tang,Jun Zhang@2013
+A framework for modelling and clustering randomly structured white matter fibre tracts in diffusion tensor imaging.@Xuwei Liang,Jun Zhang@2013
+Analysis on two approaches for high order accuracy finite difference computation.@Jun Zhang,Xinyu Geng,Ruxin Dai@2012
+MicroRNAfold: pre-microRNA secondary structure prediction based on modified NCM model with thermodynamics-based scoring strategy.@Dianwei Han,Jun Zhang,Guiliang Tang@2012
+Constrained Nonnegative Matrix Factorization based Data Distortion Techniques - Study of Data Privacy and Utility.@Nirmal Thapa,Pengpeng Lin,Lian Liu,Jie Wang,Jun Zhang@2012
+Simultaneous pattern and data hiding in supervised learning.@Pengpeng Lin,Jun Zhang,Xiwei Wang,Art Shindhelm@2012
+Relaxation method for unsteady convection-diffusion equations.@Wensheng Shen,Changjiang Zhang,Jun Zhang@2011
+Factored approximate inverse preconditioners with dynamic sparsity patterns.@Eun-Joo Lee,Jun Zhang@2011
+Parallel simulation of multiple proteins through a bioreactor coupled with biochemical reactions.@Changjiang Zhang,Kimberly Forsten-Williams,Michael Fannon,Wensheng Shen,Jun Zhang@2011
+Stabilizing block diagonal preconditioners for complex dense matrices in electromagnetics.@Xinyu Geng,Yin Wang,Jeonghwa Lee,Jun Zhang@2010
+Towards real-time performance of data privacy protection.@Jie Wang,Jun Zhang,Justin Zhan@2010
+Fast and robust sixth-order multigrid computation for the three-dimensional convection-diffusion equation.@Yin Wang,Jun Zhang@2010
+Newton Method for Nonlinear Dynamic Systems with Adaptive Time Stepping.@Wensheng Shen,Changjiang Zhang,Jun Zhang,Xiaoqian Ma@2010
+Endothelial Cell Capture of Heparin-Binding Growth Factors under Flow.@Bing Zhao,Changjiang Zhang,Kimberly Forsten-Williams,Jun Zhang,Michael Fannon@2010
+Coupling between heparan sulfate proteoglycans and FGF-2 receptors is key to FGF-2 capture under flow: a computational study.@Changjiang Zhang,Kimberly Forsten-Williams,Bing Zhao,Michael Fannon,Jun Zhang@2010
+A Parallel Algorithm for Predicting the Secondary Structure of Polycistronic MicroRNAs.@Dianwei Han,Guiliang Tang,Jun Zhang@2010
+SMBR: A novel NAT traversal mechanism for structured Peer-to-Peer communications.@Pinggai Yang,Jun Li,Jun Zhang,Hai Jiang,Yi Sun,Eryk Dutkiewicz@2010
+Integrating functional verification and performance analysis for network protocols using CP-nets.@Jing Liu,Xinming Ye,Jun Zhang,Jun Li,Yi Sun@2010
+Dynamic Differentiated Service Management for IP over Broadcasting Network.@Jun Zhang,Hai Jiang,Zhijun Xu,Jun Li,Xinming Ye,Yi Sun@2010
+A two-phase preconditioning strategy of sparse approximate inverse for indefinite matrices.@Eun-Joo Lee,Jun Zhang@2009
+A framework for quantitative and visual analysis of white matter integrity using Diffusion Tensor Imaging.@Xuwei Liang,Ning Kang,Stephen E. Rose,Jun Zhang@2009
+Sixth order compact scheme combined with multigrid method and extrapolation technique for 2D poisson equation.@Yin Wang,Jun Zhang@2009
+A Computational Model of FGF-2 Binding and HSPG Regulation Under Flow.@Wensheng Shen,Changjiang Zhang,Michael Fannon,Kimberly Forsten-Williams,Jun Zhang@2009
+A novel method for MicroRNA secondary structure prediction using a bottom-up algorithm.@Dianwei Han,Guiliang Tang,Jun Zhang@2009
+Shape modeling and clustering of white matter fiber tracts using fourier descriptors.@Xuwei Liang,Qi Zhuang,Ning Cao,Jun Zhang@2009
+Generalized random rotation perturbation for vertically partitioned data sets.@Zhenmin Lin,Jie Wang,Lian Liu,Jun Zhang@2009
+A Numerical Study of Pulsatile Flow Through a Hollow Fiber Cartridge: Growth Factor-Receptor Binding and Dissociation Analysis.@Changjiang Zhang,Wensheng Shen,Bing Zhao,Michael Fannon,Kimberly Forsten-Williams,Jun Zhang@2009
+Quantitative and visual analysis of white matter integrity using diffusion tensor imaging.@Xuwei Liang,Qi Zhuang,Ning Cao,Jun Zhang@2009
+Generalized analytic expressions for the b matrix of twice-refocused spin echo pulse sequence.@Qi Zhuang,Xuwei Liang,Ning Cao,Jun Zhang@2009
+Privacy Preservation in Social Networks with Sensitive Edge Weights.@Lian Liu,Jie Wang,Jinze Liu,Jun Zhang@2009
+Matrix Decomposition Techniques for Data Privacy.@Jun Zhang,Jie Wang,Shuting Xu@2009
+A novel data distortion approach via selective SSVD for privacy protection.@Jie Wang,Jun Zhang,Shuting Xu,Weijun Zhong@2008
+An online condition number query system.@Dianwei Han,Shuting Xu,Jun Zhang@2008
+The relationship between the features of sparse matrix and the matrix solving status.@Dianwei Han,Shuting Xu,Jun Zhang@2008
+Simulation of FGF-2 Binding with Receptors on Cell Surface on the Wall in a Bioreactor System.@Changjiang Zhang,Wensheng Shen,Kimberly Forsten-Williams,Michael Fannon,Jun Zhang@2008
+Towards Real-time Performance of Data Value Hiding for Frequent Data Updates.@Jie Wang,Justin Zhan,Jun Zhang@2008
+Security Verification of 802.11i 4-Way Handshake Protocol.@Jing Liu,Xinming Ye,Jun Zhang,Jun Li@2008
+Wavelet-Based Data Perturbation for Simultaneous Privacy-Preserving and Statistics-Preserving.@Lian Liu,Jie Wang,Jun Zhang@2008
+Frobenius norm minimization and probing for preconditioning.@Yin Wang,Jeonghwa Lee,Jun Zhang@2007
+Enhancing clustering blog documents by utilizing author/reader comments.@Beibei Li,Shuting Xu,Jun Zhang@2007
+Multiscale simulation of ligand-receptor binding and dissociation in circulation.@Wensheng Shen,Changjiang Zhang,Jun Zhang@2007
+Simultaneous Pattern and Data Hiding in Unsupervised Learning.@Jie Wang,Jun Zhang,Lian Liu,Dianwei Han@2007
+A comparison of two algorithms for predicting the condition number.@Dianwei Han,Jun Zhang@2007
+Addressing Accuracy Issues in Privacy Preserving Data Mining through Matrix Factorization.@Jie Wang,Jun Zhang@2007
+High order compact computation and nonuniform grids for streamfunction vorticity equations.@Jie Wang,Weijun Zhong,Jun Zhang@2006
+A general meshsize fourth-order compact difference discretization scheme for 3D Poisson equation.@Jie Wang,Weijun Zhong,Jun Zhang@2006
+Performance Study and Analysis of Parallel Multilevel Preconditioners.@Chi Shen,Jun Zhang@2006
+Singular value decomposition based data distortion strategy for privacy protection.@Shuting Xu,Jun Zhang,Dianwei Han,Jie Wang@2006
+A Class of Parallel Multilevel Sparse Approximate Inverse Preconditioners for Sparse Linear Systems.@Kai Wang,Jun Zhang,Chi Shen@2006
+Newton's method for steady and unsteady reacting flows.@Wensheng Shen,Jun Zhang,Fuqian Yang@2006
+NNMF-Based Factorization Techniques for High-Accuracy Privacy Protection on Non-negative-valued Datasets.@Jie Wang,Weijun Zhong,Jun Zhang@2006
+Selective Data Distortion via Structural Partition and SSVD for Privacy Preservation.@Jie Wang,Weijun Zhong,Jun Zhang,Shuting Xu@2006
+Truncation error and oscillation property of the combined compact difference scheme.@Jun Zhang,Jennifer J. Zhao@2005
+A two level finite difference scheme for one dimensional Pennes' bioheat equation.@Jennifer J. Zhao,Jun Zhang,Ning Kang,Fuqian Yang@2005
+Clustered SVD strategies in latent semantic indexing.@Jing Gao,Jun Zhang@2005
+Distributed block independent set algorithms and parallel multilevel ILU preconditioners.@Chi Shen,Jun Zhang,Kai Wang@2005
+Modeling and numerical simulation of bioheat transfer and biomechanics in soft tissue.@Wensheng Shen,Jun Zhang,Fuqian Yang@2005
+A numerical study of a 3D bioheat transfer problem with different spatial heating.@Samir Karaa,Jun Zhang,Fuqian Yang@2005
+White matter fiber tractography via anisotropic diffusion simulation in the human brain.@Ning Kang,Jun Zhang,Eric S. Carlson,Daniel Gembris@2005
+Approximating Anatomical Brain Connectivity with Diffusion Tensor MRI Using Kernel-Based Diffusion Simulations.@Jun Zhang,Ning Kang,Stephen E. Rose@2005
+Data Distortion for Privacy Protection in a Terrorist Analysis System.@Shuting Xu,Jun Zhang,Dianwei Han,Jie Wang@2005
+Matrix Condition Number Prediction with SVM Regression and Feature Selection.@Shuting Xu,Jun Zhang@2005
+Performance of ILU preconditioning techniques in simulating anisotropic diffusion in the human brain.@Ning Kang,Jun Zhang,Eric S. Carlson@2004
+A Parallel Hybrid Web Document Clustering Algorithm and its Performance Study.@Shuting Xu,Jun Zhang@2004
+Text Retrieval Using Sparsified Concept Decomposition Matrix.@Jing Gao,Jun Zhang@2004
+Support Vector Machine Approach for Partner Selection of Virtual Enterprises.@Jie Wang,Weijun Zhong,Jun Zhang@2004
+Computational and Information Science, First International Symposium, CIS 2004, Shanghai, China, December 16-18, 2004, Proceedings.@Jun Zhang,Ji-Huan He,Yuxi Fu@2004
+A new stabilization strategy for incomplete LU preconditioning of indefinite matrices.@Li Wang,Jun Zhang@2003
+Global and localized parallel preconditioning techniques for large scale solid Earth simulations.@Kai Wang,Sangbae Kim,Jun Zhang,Kengo Nakajima,Hiroshi Okuda@2003
+A Comparative Study on Dynamic and Static Sparsity Patterns in Parallel Sparse Approximate Inverse Preconditioning.@Kai Wang,Sangbae Kim,Jun Zhang@2003
+A fourth-order compact difference scheme on face centered cubic grids with multigrid method for solving 2D convection diffusion equation.@Haiwei Sun,Ning Kang,Jun Zhang,Eric S. Carlson@2003
+A fully parallel block independent set algorithm for distributed sparse matrices.@Chi Shen,Jun Zhang@2003
+MSP: A Class of Parallel Multistep Successive Sparse Approximate Inverse Preconditioning Strategies.@Kai Wang,Jun Zhang@2003
+Parallel Multilevel Block ILU Preconditioning Techniques for Large Sparse Linear Systems.@Chi Shen,Jun Zhang,Kai Wang@2003
+Global and Localized Parallel Preconditioning Techniques for Large Scale Solid Earth Simulations.@Kai Wang,Sangbae Kim,Jun Zhang,Kengo Nakajima,Hiroshi Okuda@2003
+Parallel Multilevel Sparse Approximate Inverse Preconditioners in Large Sparse Matrix Computations.@Kai Wang,Jun Zhang,Chi Shen@2003
+A note on convergence of line iterative methods for a nine-point matrix.@Samir Karaa,Jun Zhang@2002
+Parallel two level block ILU preconditioning techniques for solving large sparse linear systems.@Chi Shen,Jun Zhang@2002
+Robust Parallel ILU Preconditioning Techniques for Solving Large Sparse Matrices.@Chi Shen,Jun Zhang@2002
+A Class of New Parallel Preconditioning Strategies for Solving Large Sparse Linear Systems.@Kai Wang,Jun Zhang@2002
+Preconditioned iterative methods and finite difference schemes for convection-diffusion.@Jun Zhang@2000
+Acceleration and stabilization properties of minimal residual smoothing technique in multigrid.@Jun Zhang@1999
+A Sparse Approximate Inverse Technique for Parallel Preconditioning of Sparse Matrices.@Jun Zhang@1999
+Symbolic Computation on Complex Polynomial Solution of Differential Equations.@Jun Zhang@1996
+Learning accurate and concise naïve Bayes classifiers from attribute value taxonomies and data.@Jun Zhang,Dae-Ki Kang,Adrian Silvescu,Vasant G. Honavar@2006
+Learning Classifiers from Distributed, Ontology-Extended Data Sources.@Doina Caragea,Jun Zhang,Jyotishman Pathak,Vasant G. Honavar@2006
+Algorithms and Software for Collaborative Discovery from Autonomous, Semantically Heterogeneous, Distributed Information Sources.@Doina Caragea,Jun Zhang,Jie Bao,Jyotishman Pathak,Vasant G. Honavar@2005
+Algorithms and Software for Collaborative Discovery from Autonomous, Semantically Heterogeneous, Distributed Information Sources.@Doina Caragea,Jun Zhang,Jie Bao,Jyotishman Pathak,Vasant G. Honavar@2005
+Learning Ontology-Aware Classifiers.@Jun Zhang,Doina Caragea,Vasant G. Honavar@2005
+Multinomial Event Model Based Abstraction for Sequence and Text Classification.@Dae-Ki Kang,Jun Zhang,Adrian Silvescu,Vasant G. Honavar@2005
+Learning Classifiers Using Hierarchically Structured Class Taxonomies.@Feihong Wu,Jun Zhang,Vasant G. Honavar@2005
+Generating AVTs Using GA for Learning Decision Tree Classifiers with Missing Data.@Jinu Joo,Jun Zhang,Jihoon Yang,Vasant G. Honavar@2004
+Generation of Attribute Value Taxonomies from Data for Data-Driven Construction of Accurate and Compact Classifiers.@Dae-Ki Kang,Adrian Silvescu,Jun Zhang,Vasant G. Honavar@2004
+AVT-NBL: An Algorithm for Learning Compact and Accurate Naïve Bayes Classifiers from Attribute Value Taxonomies and Data.@Jun Zhang,Vasant G. Honavar@2004
+Learning from Attribute Value Taxonomies and Partially Specified Instances.@Jun Zhang,Vasant G. Honavar@2003
+Ontology-Driven Induction of Decision Trees at Multiple Levels of Abstraction.@Jun Zhang,Adrian Silvescu,Vasant G. Honavar@2002
+Adaptive Hybrid Feature Selection-Based Classifier Ensemble for Epileptic Seizure Classification.@Farrikh Alzami,Juan Tang,Zhiwen Yu,Si Wu,C. L. Philip Chen,Jane You,Jun Zhang@2018
+A tri-objective differential evolution approach for multimodal optimization.@Wei-jie Yu,Jing-Yu Ji,Yue-Jiao Gong,Qiang Yang,Jun Zhang@2018
+Progressive Semisupervised Learning of Multiple Classifiers.@Zhiwen Yu,Ye Lu,Jun Zhang,Jane You,Hau-San Wong,Yide Wang,Guoqiang Han@2018
+Clustering by Local Gravitation.@Zhiqiang Wang,Zhiwen Yu,C. L. Philip Chen,Jane You,Tianlong Gu,Hau-San Wong,Jun Zhang@2018
+Can We Speculate Running Application With Server Power Consumption Trace?@Yuanlong Li,Han Hu,Yonggang Wen,Jun Zhang@2018
+Set-Based Discrete Particle Swarm Optimization Based on Decomposition for Permutation-Based Multiobjective Combinatorial Optimization Problems.@Xue Yu,Wei-Neng Chen,Tianlong Gu,Huaxiang Zhang,Huaqiang Yuan,Sam Kwong,Jun Zhang@2018
+Distributed Differential Evolution Based on Adaptive Mergence and Split for Large-Scale Optimization.@Yong-Feng Ge,Wei-jie Yu,Ying Lin,Yue-Jiao Gong,Zhi-Hui Zhan,Wei-Neng Chen,Jun Zhang@2018
+A Diversity-Enhanced Resource Allocation Strategy for Decomposition-Based Multiobjective Evolutionary Algorithm.@Qiuzhen Lin,Genmiao Jin,Yueping Ma,Ka-Chun Wong,Carlos A. Coello Coello,Jianqiang Li,Jianyong Chen,Jun Zhang@2018
+Particle Swarm Optimization With a Balanceable Fitness Estimation for Many-Objective Optimization Problems.@Qiuzhen Lin,Songbai Liu,Qingling Zhu,Chaoyu Tang,Ruizhen Song,Jianyong Chen,Carlos A. Coello Coello,Ka-Chun Wong,Jun Zhang@2018
+An Energy Efficient Ant Colony System for Virtual Machine Placement in Cloud Computing.@Xiao Fang Liu,Zhi-Hui Zhan,Jeremiah D. Deng,Yun Li,Tianlong Gu,Jun Zhang@2018
+A Level-Based Learning Swarm Optimizer for Large-Scale Optimization.@Qiang Yang,Wei-Neng Chen,Jeremiah Da Deng,Yun Li,Tianlong Gu,Jun Zhang@2018
+Learning Multimodal Parameters: A Bare-Bones Niching Differential Evolution Approach.@Yue-Jiao Gong,Jun Zhang,Yicong Zhou@2018
+A Dynamic Logistic Dispatching System With Set-Based Particle Swarm Optimization.@Ya-Hui Jia,Wei-Neng Chen,Tianlong Gu,Huaxiang Zhang,Huaqiang Yuan,Ying Lin,Wei-jie Yu,Jun Zhang@2018
+Estimation of Distribution Algorithm for Autonomous Underwater Vehicles Path Planning.@Run-Dong Liu,Zhi-Hui Zhan,Wei-Neng Chen,Zhiwen Yu,Jun Zhang@2018
+A parallel double-level multiobjective evolutionary algorithm for robust optimization.@Wei-jie Yu,Jin-Zhou Li,Wei-Neng Chen,Jun Zhang@2017
+Cooperation coevolution with fast interdependency identification for large scale optimization.@Xiao-Min Hu,Fei-Long He,Wei-Neng Chen,Jun Zhang@2017
+Multimodal Estimation of Distribution Algorithms.@Qiang Yang,Wei-Neng Chen,Yun Li,C. L. Philip Chen,Xiang-Min Xu,Jun Zhang@2017
+An External Archive-Guided Multiobjective Particle Swarm Optimization Algorithm.@Qingling Zhu,Qiuzhen Lin,Wei-Neng Chen,Ka-Chun Wong,Carlos A. Coello Coello,Jianqiang Li,Jianyong Chen,Jun Zhang@2017
+Segment-Based Predominant Learning Swarm Optimizer for Large-Scale Optimization.@Qiang Yang,Wei-Neng Chen,Tianlong Gu,Huaxiang Zhang,Jeremiah D. Deng,Yun Li,Jun Zhang@2017
+Benchmarking Stochastic Algorithms for Global Optimization Problems by Visualizing Confidence Intervals.@Qunfeng Liu,Wei-Neng Chen,Jeremiah D. Deng,Tianlong Gu,Huaxiang Zhang,Zhengtao Yu,Jun Zhang@2017
+Distribution-Based Cluster Structure Selection.@Zhiwen Yu,Xianjun Zhu,Hau-San Wong,Jane You,Jun Zhang,Guoqiang Han@2017
+A New Kind of Nonparametric Test for Statistical Comparison of Multiple Classifiers Over Multiple Datasets.@Zhiwen Yu,Zhiqiang Wang,Jane You,Jun Zhang,Jiming Liu,Hau-San Wong,Guoqiang Han@2017
+Adaptive Multimodal Continuous Ant Colony Optimization.@Qiang Yang,Wei-Neng Chen,Zhengtao Yu,Tianlong Gu,Yun Li,Huaxiang Zhang,Jun Zhang@2017
+Toward Fast Niching Evolutionary Algorithms: A Locality Sensitive Hashing-Based Approach.@Yu-Hui Zhang,Yue-Jiao Gong,Huaxiang Zhang,Tianlong Gu,Jun Zhang@2017
+A Maximal Clique Based Multiobjective Evolutionary Algorithm for Overlapping Community Detection.@Xuyun Wen,Wei-Neng Chen,Ying Lin,Tianlong Gu,Huaxiang Zhang,Yun Li,Yilong Yin,Jun Zhang@2017
+Adaptive Ensembling of Semi-Supervised Clustering Solutions.@Zhiwen Yu,Zongqiang Kuang,Jiming Liu,Hongsheng Chen,Jun Zhang,Jane You,Hau-San Wong,Guoqiang Han@2017
+Cloudde: A Heterogeneous Differential Evolution Algorithm and Its Distributed Cloud Version.@Zhi-Hui Zhan,Xiao Fang Liu,Huaxiang Zhang,Zhengtao Yu,Jian Weng,Yun Li,Tianlong Gu,Jun Zhang@2017
+A parallel Ant Colony System based on region decomposition for Taxi-Passenger Matching.@Xin Situ,Wei-Neng Chen,Yue-Jiao Gong,Ying Lin,Wei-jie Yu,Zhiwen Yu,Jun Zhang@2017
+Fast 3D path planning based on heuristic-aided differential evolution.@Ning Ma,Xue Yu,Wei-Neng Chen,Jun Zhang@2017
+Fast pedestrian detection using multimodal estimation of distribution algorithms.@Da-Zhao Tan,Wei-Neng Chen,Jun Zhang,Wei-jie Yu@2017
+An ant colony system based virtual network embedding algorithm.@Jia-bin Wang,Wei-Neng Chen,Hao Cong,Zhi-Hui Zhan,Jun Zhang@2017
+A splicing-driven memetic algorithm for reconstructing cross-cut shredded text documents.@Yue-Jiao Gong,Yong-Feng Ge,Jing-Jing Li,Jun Zhang,W. H. Ip@2016
+Progressive subspace ensemble learning.@Zhiwen Yu,Daxing Wang,Jane You,Hau-San Wong,Si Wu,Jun Zhang,Guoqiang Han@2016
+Fast Micro-Differential Evolution for Topological Active Net Optimization.@Yuan-Long Li,Zhi-Hui Zhan,Yue-Jiao Gong,Jun Zhang,Yun Li,Qing Li@2016
+Genetic Learning Particle Swarm Optimization.@Yue-Jiao Gong,Jing-Jing Li,Yicong Zhou,Yun Li,Henry Shu-Hung Chung,Yu-hui Shi,Jun Zhang@2016
+A Primary Theoretical Study on Decomposition-Based Multiobjective Evolutionary Algorithms.@Yuan-Long Li,Yuren Zhou,Zhi-Hui Zhan,Jun Zhang@2016
+Kuhn-Munkres Parallel Genetic Algorithm for the Set Cover Problem and Its Application to Large-Scale Wireless Sensor Networks.@Xin-yuan Zhang,Jun Zhang,Yue-Jiao Gong,Zhi-Hui Zhan,Wei-Neng Chen,Yun Li@2016
+A Hybrid Evolutionary Immune Algorithm for Multiobjective Optimization Problems.@Qiuzhen Lin,Jianyong Chen,Zhi-Hui Zhan,Wei-Neng Chen,Carlos A. Coello Coello,Yilong Yin,Chih-Min Lin,Jun Zhang@2016
+Incremental Semi-Supervised Clustering Ensemble for High Dimensional Data Clustering.@Zhiwen Yu,Peinan Luo,Jane You,Hau-San Wong,Hareton Leung,Si Wu,Jun Zhang,Guoqiang Han@2016
+A random-based dynamic grouping strategy for large scale multi-objective optimization.@An Song,Qiang Yang,Wei-Neng Chen,Jun Zhang@2016
+Orthogonal learning particle swarm optimization with variable relocation for dynamic optimization.@Zi-Jia Wang,Zhi-Hui Zhan,Ke-Jing Du,Zhiwen Yu,Jun Zhang@2016
+Multiple parents guided differential evolution for large scale optimization.@Qiang Yang,Han-Yu Xie,Wei-Neng Chen,Jun Zhang@2016
+Enhancing distributed differential evolution with a space-driven topology.@Yong-Feng Ge,Wei-jie Yu,Jing-Jing Li,Zhiwen Yu,Jun Zhang@2016
+Particle swarm optimization with Monte-Carlo simulation and hypothesis testing for network reliability problem.@Lu-Yao Wu,Wei-Neng Chen,Hao-Hui Deng,Jun Zhang,Yun Li@2016
+A dynamic competitive swarm optimizer based-on entropy for large scale optimization.@Wen-Xiao Zhang,Wei-Neng Chen,Jun Zhang@2016
+Adaptive noise immune cluster ensemble using affinity propagation.@Zhiwen Yu,Guoqiang Han,Le Li,Jiming Liu,Jun Zhang@2016
+Incremental semi-supervised clustering ensemble for high dimensional data clustering.@Zhiwen Yu,Peinan Luo,Si Wu,Guoqiang Han,Jane You,Hareton Leung,Hau-San Wong,Jun Zhang@2016
+When Neural Network Computation Meets Evolutionary Computation: A Survey.@Zong-Gan Chen,Zhi-hui Zhan,Wen Shi,Wei-neng Chen,Jun Zhang@2016
+A multi-optimizer cooperative coevolution method for large scale optimization.@Wen Shi,Wei-Neng Chen,Qiang Yang,Jun Zhang@2016
+Distributed evolutionary algorithms and their models: A survey of the state-of-the-art.@Yue-Jiao Gong,Wei-Neng Chen,Zhi-Hui Zhan,Jun Zhang,Yun Li,Qingfu Zhang,Jing-Jing Li@2015
+Cloud Computing Resource Scheduling and a Survey of Its Evolutionary Approaches.@Zhi-Hui Zhan,Xiao Fang Liu,Yue-Jiao Gong,Jun Zhang,Henry Shu-Hung Chung,Yun Li@2015
+Competitive and cooperative particle swarm optimization with information sharing mechanism for global optimization problems.@Yuhua Li,Zhi-Hui Zhan,Shujin Lin,Jun Zhang,Xiaonan Luo@2015
+Fast detection of human using differential evolution.@Ni Chen,Wei-Neng Chen,Jun Zhang@2015
+Differential Evolution with an Evolution Path: A DEEP Evolutionary Algorithm.@Yuan-Long Li,Zhi-Hui Zhan,Yue-Jiao Gong,Wei-Neng Chen,Jun Zhang,Yun Li@2015
+An Evolutionary Algorithm with Double-Level Archives for Multiobjective Optimization.@Ni Chen,Wei-Neng Chen,Yue-Jiao Gong,Zhi-Hui Zhan,Jun Zhang,Yun Li,Yusong Tan@2015
+Adaptive Noise Immune Cluster Ensemble Using Affinity Propagation.@Zhiwen Yu,Le Li,Jiming Liu,Jun Zhang,Guoqiang Han@2015
+Composite differential evolution with queueing selection for multimodal optimization.@Yu-Hui Zhang,Yue-Jiao Gong,Wei-Neng Chen,Jun Zhang@2015
+Deadline constrained cloud computing resources scheduling for cost optimization based on dynamic objective genetic algorithm.@Zong-Gan Chen,Ke-Jing Du,Zhi-Hui Zhan,Jun Zhang@2015
+Comparisons study of APSO OLPSO and CLPSO on CEC2005 and CEC2014 test suits.@Yan-Fei Li,Zhi-Hui Zhan,Ying Lin,Jun Zhang@2015
+An Ant Colony Optimizing Algorithm Based on Scheduling Preference for Maximizing Working Time of WSN.@Yu Liu,Wei-Neng Chen,Xiaomin Hu,Jun Zhang@2015
+A Set-based Comprehensive Learning Particle Swarm Optimization with Decomposition for Multiobjective Traveling Salesman Problem.@Xue Yu,Wei-Neng Chen,Xiaomin Hu,Jun Zhang@2015
+Dichotomy Guided Based Parameter Adaptation for Differential Evolution.@Xiao Fang Liu,Zhi-hui Zhan,Jun Zhang@2015
+Reconstructing Cross-Cut Shredded Text Documents: A Genetic Algorithm with Splicing-Driven Reproduction.@Yong-Feng Ge,Yue-Jiao Gong,Wei-jie Yu,Xiaomin Hu,Jun Zhang@2015
+Renumber Coevolutionary Multiswarm Particle Swarm Optimization for Multi-objective Workflow Scheduling on Cloud Computing Environment.@Hai-Hao Li,Zong-Gan Chen,Zhi-Hui Zhan,Ke-Jing Du,Jun Zhang@2015
+A Dimension-Decreasing Particle Swarm Optimization Method for Portfolio Optimization.@Jia-bin Wang,Wei-Neng Chen,Jun Zhang,Ying Lin@2015
+Deadline Constrained Cloud Computing Resources Scheduling through an Ant Colony System Approach.@Zong-Gan Chen,Zhi-Hui Zhan,Hai-Hao Li,Ke-Jing Du,Jing-Hui Zhong,Yong Wee Foo,Yun Li,Jun Zhang@2015
+Industry 4.0 with cyber-physical integration: A design and manufacture perspective.@Alfredo Alan Flores Saldivar,Yun Li,Wei-neng Chen,Zhi-hui Zhan,Jun Zhang,Leo Yi Chen@2015
+An Analysis of Binary Particle Swarm Optimizers for Task Assigning Problem in Wireless Sensor Networks.@Xu-Long Zeng,Wei-Neng Chen,Jun Zhang@2015
+An Improved Method for Comprehensive Learning Particle Swarm Optimization.@Zi-Jia Wang,Zhi-Hui Zhan,Jun Zhang@2015
+Particle Swarm Optimization with Minimum Spanning Tree Topology for Multimodal Optimization.@Yu-Hui Zhang,Ying Lin,Yue-Jiao Gong,Jun Zhang@2015
+A Parallel Implementation of Multiobjective Particle Swarm Optimization Algorithm Based on Decomposition.@Jin-Zhou Li,Wei-Neng Chen,Jun Zhang,Zhi-Hui Zhan@2015
+Differential Evolution with Random Walk Mutation and an External Archive for Multimodal Optimization.@Yu-Hui Zhang,Meng-Ting Li,Yue-Jiao Gong,Jun Zhang@2015
+Differential evolution for power electronic circuit optimization.@Zhi-Hui Zhan,Jun Zhang@2015
+Optimizing Power Electronic Circuit Design with Uniform Search Range: An Orthogonal Learning Particle Swarm Optimization Approach with Predictive Solution Strategy.@Ying Lin,Zhi-Hui Zhan,Jun Zhang@2014
+Differential Evolution With Two-Level Parameter Adaptation.@Wei-jie Yu,Meie Shen,Wei-neng Chen,Zhi-hui Zhan,Yue-jiao Gong,Ying Lin,Ou Liu,Jun Zhang@2014
+Bi-Velocity Discrete Particle Swarm Optimization and Its Application to Multicast Routing Problem in Communication Networks.@Meie Shen,Zhi-Hui Zhan,Wei-Neng Chen,Yue-Jiao Gong,Jun Zhang,Yun Li@2014
+Adaptive particle swarm optimization with variable relocation for dynamic optimization problems.@Zhi-Hui Zhan,Jing-Jing Li,Jun Zhang@2014
+A tribal ecosystem inspired algorithm (TEA) for global optimization.@Ying Lin,Jingjing Li,Jun Zhang,Meng Wan@2014
+Differential evolution using mutation strategy with adaptive greediness degree control.@Wei-jie Yu,Jing-Jing Li,Jun Zhang,Meng Wan@2014
+Pseudo multi-population differential evolution for multimodal optimization.@Hao-Feng Li,Yue-Jiao Gong,Zhi-Hui Zhan,Wei-Neng Chen,Jun Zhang@2014
+Generating Software Test Data by Particle Swarm Optimization.@Ya-Hui Jia,Wei-Neng Chen,Jun Zhang,Jing-Jing Li@2014
+Load Balance Aware Genetic Algorithm for Task Scheduling in Cloud Computing.@Zhi-Hui Zhan,Ge-Yi Zhang,Ying Lin,Yue-Jiao Gong,Jun Zhang@2014
+From the social learning theory to a social learning algorithm for global optimization.@Yue-Jiao Gong,Jun Zhang,Yun Li@2014
+A generic archive technique for enhancing the niching performance of evolutionary computation.@Yu-Hui Zhang,Yue-Jiao Gong,Wei-Neng Chen,Zhi-Hui Zhan,Jun Zhang@2014
+Tournament Selection Based Artificial Bee Colony Algorithm with Elitist Strategy.@Meng-Dan Zhang,Zhi-Hui Zhan,Jing-Jing Li,Jun Zhang@2014
+Real-Time Traffic Signal Control for Modern Roundabouts by Using Particle Swarm Optimization-Based Fuzzy Controller.@Yue-Jiao Gong,Jun Zhang@2014
+Multiple Populations for Multiple Objectives: A Coevolutionary Technique for Solving Multiobjective Optimization Problems.@Zhi-hui Zhan,Jingjing Li,Jiannong Cao,Jun Zhang,Henry Shu-Hung Chung,Yu-hui Shi@2013
+Optimal Selection of Parameters for Nonuniform Embedding of Chaotic Time Series Using Ant Colony Optimization.@Meie Shen,Wei-neng Chen,Jun Zhang,Henry Shu-Hung Chung,Okyay Kaynak@2013
+Particle Swarm Optimization With an Aging Leader and Challengers.@Wei-neng Chen,Jun Zhang,Ying Lin,Ni Chen,Zhi-hui Zhan,Henry Shu-Hung Chung,Yun Li,Yu-hui Shi@2013
+A Differential Evolution Algorithm With Dual Populations for Solving Periodic Railway Timetable Scheduling Problem.@Jing-Hui Zhong,Meie Shen,Jun Zhang,Henry Shu-Hung Chung,Yu-hui Shi,Yun Li@2013
+Dirichlet Process Mixture Model for Document Clustering with Feature Partition.@Rui-zhang Huang,Guan Yu,Zhaojun Wang,Jun Zhang,Liangxing Shi@2013
+Ant Colony Optimization for Software Project Scheduling and Staffing with an Event-Based Scheduler.@Wei-neng Chen,Jun Zhang@2013
+Optimizing Vaccine Distribution for Different Age Groups of Population Using DE Algorithm.@Xiaomin Hu,Jun Zhang@2013
+Multiobjective genetic algorithm for demand side management of smart grid.@Xiaomin Hu,Zhi-hui Zhan,Ying Lin,Yue-jiao Gong,Wei-jie Yu,Yao-Xiu Hu,Jun Zhang@2013
+Ant colony optimization with adaptive heuristics design.@Ying Lin,Jun Zhang@2013
+Space-based initialization strategy for particle swarm optimization.@Liang Yin,Xiaomin Hu,Jun Zhang@2013
+Small-world particle swarm optimization with topology adaptation.@Yue-jiao Gong,Jun Zhang@2013
+A set-based locally informed discrete particle swarm optimization.@Yun-yang Ma,Yue-jiao Gong,Wei-neng Chen,Jun Zhang@2013
+A novel pheromone-based evolutionary algorithm for solving degree-constrained minimum spanning tree problem.@Xiao-ma Huang,Yue-jiao Gong,Jun Zhang@2013
+Differential evolution enhanced with evolution path vector.@Yuan-Long Li,Zhi-hui Zhan,Jun Zhang@2013
+Adaptive artificial bee colony optimization.@Wei-jie Yu,Jun Zhang,Wei-neng Chen@2013
+Efficient Information Dissemination in Dynamic Networks.@Zhiwei Yang,Wei-Gang Wu,Yishun Chen,Jun Zhang@2013
+A Set-Based Discrete Differential Evolution Algorithm.@Yu Liu,Wei-neng Chen,Zhi-hui Zhan,Ying Lin,Yue-jiao Gong,Jun Zhang@2013
+Parameter investigation in brain storm optimization.@Zhi-hui Zhan,Wei-neng Chen,Ying Lin,Yue-jiao Gong,Yuan-Long Li,Jun Zhang@2013
+Scheduling Multi-Mode Projects under Uncertainty to Optimize Cash Flows: A Monte Carlo Ant Colony System Approach.@Wei-neng Chen,Jun Zhang@2012
+An Efficient Resource Allocation Scheme Using Particle Swarm Optimization.@Yue-jiao Gong,Jun Zhang,Henry Shu-Hung Chung,Wei-neng Chen,Zhi-hui Zhan,Yun Li,Yu-hui Shi@2012
+Optimizing RFID Network Planning by Using a Particle Swarm Optimization Algorithm With Redundant Reader Elimination.@Yue-jiao Gong,Meie Shen,Jun Zhang,Okyay Kaynak,Wei-neng Chen,Zhi-hui Zhan@2012
+Optimizing the Vehicle Routing Problem With Time Windows: A Discrete Particle Swarm Optimization Approach.@Yue-jiao Gong,Jun Zhang,Ou Liu,Rui-zhang Huang,Henry Shu-Hung Chung,Yu-hui Shi@2012
+An Ant Colony Optimization Approach for Maximizing the Lifetime of Heterogeneous Wireless Sensor Networks.@Ying Lin,Jun Zhang,Henry Shu-Hung Chung,Wai-Hung Ip,Yun Li,Yu-hui Shi@2012
+Real-time traffic signal control for roundabouts by using a PSO-based fuzzy controller.@Yue-jiao Gong,Jun Zhang@2012
+Enhancing the performance of evolutionary algorithms: A novel maturity-based adaptation strategy.@Yu Guo,Wei-neng Chen,Jun Zhang@2012
+A modified brain storm optimization.@Zhi-hui Zhan,Jun Zhang,Yu-hui Shi,Hai-lin Liu@2012
+SDE: a stochastic coding differential evolution for global optimization.@Jinghui Zhong,Jun Zhang@2012
+A preference-based bi-objective approach to the payment scheduling negotiation problem with the extended r-dominance and NSGA-ii.@Wei-neng Chen,Jun Zhang,Jinghui Zhong@2012
+Estimating markov switching model using differential evolution algorithm in prospective infectious disease outbreak detection.@Rui-tian Xu,Jun Zhang@2012
+Ant colony optimization algorithm for lifetime maximization in wireless sensor network with mobile sink.@Jinghui Zhong,Jun Zhang@2012
+Adaptive differential evolution with optimization state estimation.@Wei-jie Yu,Jun Zhang@2012
+Differential evolution algorithm with PCA-based crossover.@Yuan-Long Li,Jun Zhang,Wei-neng Chen@2012
+Enhance differential evolution with random walk.@Zhi-hui Zhan,Jun Zhang@2012
+Adaptive genetic algorithm based on density distribution of population.@Ni Chen,Jun Zhang,Ou Liu@2012
+A set-based discrete PSO for cloud workflow scheduling with user-defined QoS constraints.@Wei-neng Chen,Jun Zhang@2012
+Ant colony optimization for enhancing scheduling reliability in wireless sensor networks.@Xiaomin Hu,Jun Zhang@2012
+Extended Binary Particle Swarm Optimization Approach for Disjoint Set Covers Problem in Wireless Sensor Networks.@Zhi-Hui Zhan,Jun Zhang,Ke-Jing Du,Jing Xiao@2012
+Evolutionary Computation Meets Machine Learning: A Survey.@Jun Zhang,Zhi-hui Zhan,Ying Lin,Ni Chen,Yue-jiao Gong,Jing-Hui Zhong,Henry Shu-Hung Chung,Yun Li,Yu-hui Shi@2011
+Orthogonal Learning Particle Swarm Optimization.@Zhi-hui Zhan,Jun Zhang,Yun Li,Yu-hui Shi@2011
+Energy-efficient local wake-up scheduling in wireless sensor networks.@Jing-Hui Zhong,Jun Zhang@2011
+Orthogonal learning particle swarm optimization for power electronic circuit optimization with free search range.@Zhi-hui Zhan,Jun Zhang@2011
+An ant colony optimization approach for efficient admission scheduling of elective inpatients.@Ying Lin,Jun Zhang@2011
+Parallel exploitation in estimated basins of attraction: a new derivative-free optimization algorithm.@Ying Lin,Jing-Hui Zhong,Jun Zhang@2011
+Ant colony optimization for determining the optimal dimension and delays in phase space reconstruction.@Wei-neng Chen,Jun Zhang@2011
+A multi-objective memetic algorithm for relay node placement in wireless sensor network.@Jing-Hui Zhong,Jun Zhang@2011
+Co-evolutionary differential evolution with dynamic population size and adaptive migration strategy.@Zhi-hui Zhan,Jun Zhang@2011
+Adaptive multi-objective differential evolution with stochastic coding strategy.@Jing-Hui Zhong,Jun Zhang@2011
+Index-based genetic algorithm for continuous optimization problems.@Ni Chen,Jun Zhang@2011
+Multi-population differential evolution with adaptive parameter control for global optimization.@Wei-jie Yu,Jun Zhang@2011
+A novel fuzzy model for the traffic signal control of modern roundabouts.@Yue-jiao Gong,Jun Zhang,Ou Liu,Yi Li@2011
+A quantum-inspired genetic algorithm for k-means clustering.@Jing Xiao,YuPing Yan,Jun Zhang,Yong Tang@2010
+A Novel Set-Based Particle Swarm Optimization Method for Discrete Optimization Problems.@Wei-neng Chen,Jun Zhang,Henry Shu-Hung Chung,Wen-liang Zhong,Wei-Gang Wu,Yu-hui Shi@2010
+Hybrid Genetic Algorithm Using a Forward Encoding Scheme for Lifetime Maximization of Wireless Sensor Networks.@Xiaomin Hu,Jun Zhang,Yan Yu,Henry Shu-Hung Chung,Yuan-Long Li,Yu-hui Shi,Xiaonan Luo@2010
+An Efficient Ant Colony System Based on Receding Horizon Control for the Aircraft Arrival Sequencing and Scheduling Problem.@Zhi-hui Zhan,Jun Zhang,Yun Li,Ou Liu,S. K. Kwok,W. H. Ip,Okyay Kaynak@2010
+Optimizing Discounted Cash Flows in Project Scheduling - An Ant Colony Optimization Approach.@Wei-neng Chen,Jun Zhang,Henry Shu-Hung Chung,Rui-zhang Huang,Ou Liu@2010
+SamACO: Variable Sampling Ant Colony Optimization Algorithm for Continuous Optimization.@Xiaomin Hu,Jun Zhang,Henry Shu-Hung Chung,Yun Li,Ou Liu@2010
+A Monte-Carlo ant colony system for scheduling multi-mode projects with uncertainties to optimize cash flows.@Wei-neng Chen,Jun Zhang,Ou Liu,Hai-lin Liu@2010
+A genetic algorithm for the optimization of admission scheduling strategy in hospitals.@Ni Chen,Zhi-hui Zhan,Jun Zhang,Ou Liu,Hai-lin Liu@2010
+A linear map-based mutation scheme for real coded genetic algorithms.@Yue-jiao Gong,Xiaomin Hu,Jun Zhang,Ou Liu,Hai-lin Liu@2010
+Optimal node scheduling for the lifetime maximization of two-tier wireless sensor networks.@Ying Lin,Xiaomin Hu,Jun Zhang,Ou Liu,Hai-lin Liu@2010
+An ant-colony-system-based activity scheduling method for the lifetime maximization of heterogeneous wireless sensor networks.@Ying Lin,Xiaomin Hu,Jun Zhang@2010
+Pheromone-distribution-based adaptive ant colony system.@Wei-jie Yu,Jun Zhang@2010
+Self-adaptive differential evolution based on PSO learning strategy.@Zhi-hui Zhan,Jun Zhang@2010
+An parallel particle swarm optimization approach for multiobjective optimization problems.@Zhi-hui Zhan,Jun Zhang@2010
+A robust estimation of distribution algorithm for power electronic circuits design.@Jinghui Zhong,Jun Zhang@2010
+MP-EDA: A Robust Estimation of Distribution Algorithm with Multiple Probabilistic Models for Global Continuous Optimization.@Jinghui Zhong,Jun Zhang,Zhun Fan@2010
+Solving the Optimal Coverage Problem in Wireless Sensor Networks Using Evolutionary Computation Algorithms.@Zhi-hui Zhan,Jun Zhang,Zhun Fan@2010
+Ant routing optimization algorithm for extending the lifetime of wireless sensor networks.@Xiaomin Hu,Jun Zhang@2010
+A multi-objective comprehensive learning particle swarm optimization with a binary search-based representation scheme for bed allocation problem in general hospital.@Yue-jiao Gong,Jun Zhang,Zhun Fan@2010
+HPBILc: A histogram-based EDA for continuous optimization.@Jing Xiao,YuPing Yan,Jun Zhang@2009
+An Ant Colony Optimization Approach to a Grid Workflow Scheduling Problem With Various QoS Requirements.@Wei-neng Chen,Jun Zhang@2009
+An Intelligent Testing System Embedded With an Ant-Colony-Optimization-Based Test Composition Method.@Xiaomin Hu,Jun Zhang,Henry Shu-Hung Chung,Ou Liu,Jing Xiao@2009
+Adaptive Particle Swarm Optimization.@Zhi-hui Zhan,Jun Zhang,Yun Li,Henry Shu-Hung Chung@2009
+An ant colony optimization algorithm for the time-varying workflow scheduling problem in grids.@Wei-neng Chen,Yuan Shi,Jun Zhang@2009
+Solving the flight frequency programming problem with particle swarm optimization.@Zhi-hui Zhan,Xin-ling Feng,Yue-jiao Gong,Jun Zhang@2009
+An intelligent testing system embedded with an ant colony optimization based test composition method.@Xiaomin Hu,Jun Zhang@2009
+An Isoline Genetic Algorithm.@Ying Lin,Jun Zhang@2009
+Swarm Intelligence Inspired Multicast Routing: An Ant Colony Optimization Approach.@Xiaomin Hu,Jun Zhang,Li-Ming Zhang@2009
+Discrete Particle Swarm Optimization for Multiple Destination Routing Problems.@Zhi-hui Zhan,Jun Zhang@2009
+Particle swarm optimization with information share mechanism.@Zhi-hui Zhan,Jun Zhang,Rui-zhang Huang@2009
+Orthogonal learning particle swarm optimization.@Zhi-hui Zhan,Jun Zhang,Ou Liu@2009
+Ant colony system based on receding horizon control for aircraft arrival sequencing and scheduling.@Zhi-hui Zhan,Jun Zhang,Yue-jiao Gong@2009
+Parallel Particle Swarm Optimization with Adaptive Asynchronous Migration Strategy.@Zhi-hui Zhan,Jun Zhang@2009
+On an Ant Colony-Based Approach for Business Fraud Detection.@Ou Liu,Jian Ma,Pak-Lok Poon,Jun Zhang@2009
+Self-Adaptive Ant Colony System for the Traveling Salesman Problem.@Wei-jie Yu,Xiaomin Hu,Jun Zhang,Rui-zhang Huang@2009
+A New Genetic Algorithm for the SET k-cover Problem in Wireless Sensor Networks.@Jun Zhang,Yuan-Long Li,Xiaomin Hu@2009
+A Clustering-based Adaptive Parameter Control Method for Continuous Ant Colony Optimization.@Yue-jiao Gong,Rui-tian Xu,Jun Zhang,Ou Liu@2009
+A Novel Fuzzy Histogram Based Estimation of Distribution Algorithm for Global Numerical Optimization.@Weili Liu,Jinghui Zhong,Wei-Gang Wu,Jing Xiao,Jun Zhang@2009
+Keyword Combination Extraction in Text Categorization Based on Ant Colony Optimization.@Zi-jun Yu,Wei-Gang Wu,Jing Xiao,Jun Zhang,Rui-zhang Huang,Ou Liu@2009
+A pseudo parallel ant algorithm with an adaptive migration controller.@Ying Lin,Jun Zhang,Jing Xiao@2008
+Orthogonal Methods Based Ant Colony Search for Solving Continuous Optimization Problems.@Xiaomin Hu,Jun Zhang,Yun Li@2008
+Chaotic Time Series Prediction Using a Neuro-Fuzzy System with Time-Delay Coordinates.@Jun Zhang,Henry Shu-Hung Chung,Wai-Lun Lo@2008
+Adaptive Particle Swarm Optimization.@Zhi-hui Zhan,Jun Zhang@2008
+A Quantum-inspired Genetic Algorithm for data clustering.@Jing Xiao,YuPing Yan,Ying Lin,Ling Yuan,Jun Zhang@2008
+A contour method in population-based stochastic algorithms.@Ying Lin,Jun Zhang,Lu-kai Lan@2008
+New evaluation criteria for the convergence of continuous evolutionary algorithms.@Ying Lin,Jian Huang,Jun Zhang@2008
+A particle swarm optimizer with lifespan for global optimization on multimodal functions.@Jun Zhang,Ying Lin@2008
+An orthogonal local search genetic algorithm for the design and optimization of power electronic circuits.@Tao Huang,Jian Huang,Jun Zhang@2008
+A novel particle swarm optimization for the Steiner tree problem in graphs.@Wen-liang Zhong,Jian Huang,Jun Zhang@2008
+Kernel parameter optimization of Kernel-based LDA methods.@Jian Huang,Xiaoming Chen,Pong Chi Yuen,Jun Zhang,Wensheng Chen,Jian-Huang Lai@2008
+A Novel Genetic Algorithm with Orthogonal Prediction for Global Numerical Optimization.@Jun Zhang,Jinghui Zhong,Xiaomin Hu@2008
+Power Electronic Circuits Design: A Particle Swarm Optimization Approach.@Jun Zhang,Yuan Shi,Zhi-hui Zhan@2008
+A novel geometric center design method for genetic algorithm optimization.@Ying Lin,Jun Zhang@2008
+Flexible Protein Folding by Ant Colony Optimization.@Xiaomin Hu,Jun Zhang,Yun Li@2008
+Clustering-Based Adaptive Crossover and Mutation Probabilities for Genetic Algorithms.@Jun Zhang,Henry Shu-Hung Chung,Wai-Lun Lo@2007
+A new pheromone design in ACS for solving JSP.@Xiao-Ian Zhuo,Jun Zhang,Wei-neng Chen@2007
+Adaptive control of acceleration coefficients for particle swarm optimization based on clustering analysis.@Zhi-hui Zhan,Jing Xiao,Jun Zhang,Wei-neng Chen@2007
+A novel discrete particle swarm optimization to solve traveling salesman problem.@Wen-liang Zhong,Jun Zhang,Wei-neng Chen@2007
+Workflow scheduling in grids: an ant colony optimization approach.@Wei-neng Chen,Jun Zhang,Yang Yu@2007
+Pseudo Parallel Ant Colony Optimization for Continuous Functions.@Ying Lin,HuaChun Cai,Jing Xiao,Jun Zhang@2007
+An Ant Colony System Algorithm for the Multicast Routing Problem.@Yuan Zhang,Huachun Cai,Ying Lin,Jing Xiao,Jun Zhang@2007
+An Orthogonal Search Embedded Ant Colony Optimization Approach to Continuous Function Optimization.@Jun Zhang,Wei-neng Chen,Xuan Tan@2006
+An Enhanced Genetic Algorithm with Orthogonal Design.@Xiaomin Hu,Jun Zhang,Jinghui Zhong@2006
+Study of Parametric Relation in Ant Colony Optimization Approach to Traveling Salesman Problem.@Xuyao Luo,Fang Yu,Jun Zhang@2006
+Ant Colony System for Optimizing Vehicle Routing Problem with Time Windows (VRPTW).@Xuan Tan,Xiaolan Zhuo,Jun Zhang@2006
+Numerical Model and Analysis on Dynamics of Composites for Active Damage Detection.@Zhi Wei,Minqiao Lu,Jun Zhang@2006
+Continuous Function Optimization Using Hybrid Ant Colony Approach with Orthogonal Design Scheme.@Jun Zhang,Wei-neng Chen,Jinghui Zhong,Xuan Tan,Yun Li@2006
+Ant Colony System for Optimizing Vehicle Routing Problem with Time Windows.@Xuan Tan,Xuyao Luo,Wei-neng Chen,Jun Zhang@2005
+Comparison of Performance between Different Selection Strategies on Simple Genetic Algorithms.@Jinghui Zhong,Xiaomin Hu,Jun Zhang,Min Gu@2005
+An Investigation into the Use of Delay Coordinate Embedding Technique with MIMO ANFIS for Nonlinear Prediction of Chaotic Signals.@Jun Zhang,Weiwei Dai,Muhui Fan,Henry Shu-Hung Chung,Zhi Wei,D. Bi@2005
+Fuzzy Virtual Coupling Design for High Performance Haptic Display.@D. Bi,Jun Zhang,G. L. Wang@2005
+Adaptive crossover and mutation in genetic algorithms based on clustering technique.@Jun Zhang,Henry Shu-Hung Chung,Jinghui Zhong@2005
+Novel Leaning Feed-Forward Controller for Accurate Robot Trajectory Tracking.@D. Bi,G. L. Wang,Jun Zhang,Q. Xue@2005
+NN-Based Damage Detection in Multilayer Composites.@Zhi Wei,Xiaomin Hu,Muhui Fan,Jun Zhang,D. Bi@2005
+Pseudo-coevolutionary genetic algorithms for power electronic circuits optimization.@Jun Zhang,Henry Shu-Hung Chung,Wai-Lun Lo,Eugene P. W. Tam,J. J. Lee,Angus K. M. Wu@2003
+On the use of pseudo-coevolutionary genetic algorithms with adaptive migration for design of power electronics regulators.@Jun Zhang,Angus K. M. Wu,Henry Shu-Hung Chung@2001
+A Hardware-Efficient Analog Network Structure for Hybrid Precoding in Millimeter Wave Systems.@Xianghao Yu,Jun Zhang,Khaled Ben Letaief@2018
+Exploiting Mobility in Cache-Assisted D2D Networks: Performance Analysis and Optimization.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2018
+A Survey on Mobile Edge Computing: The Communication Perspective.@Yuyi Mao,Changsheng You,Jun Zhang,Kaibin Huang,Khaled Ben Letaief@2017
+Coverage Analysis for Millimeter Wave Networks: The Impact of Directional Antenna Arrays.@Xianghao Yu,Jun Zhang,Martin Haenggi,Khaled Ben Letaief@2017
+High-Dimensional CSI Acquisition in Massive MIMO: Sparsity-Inspired Approaches.@Juei-Chin Shen,Jun Zhang,Kwang-Cheng Chen,Khaled Ben Letaief@2017
+Layered Group Sparse Beamforming for Cache-Enabled Green Wireless Networks.@Xi Peng,Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2017
+Mobility-Aware Caching in D2D Networks.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2017
+Joint Fronthaul Multicast Beamforming and User-Centric Clustering in Downlink C-RANs.@Bin Hu,Cunqing Hua,Jun Zhang,Cailian Chen,Xinping Guan@2017
+Stochastic Joint Radio and Computational Resource Management for Multi-User Mobile-Edge Computing Systems.@Yuyi Mao,Jun Zhang,S. H. Song,Khaled Ben Letaief@2017
+Cache Placement in Fog-RANs: From Centralized to Distributed Algorithms.@Juan Liu,Bo Bai,Jun Zhang,Khaled Ben Letaief@2017
+Massive CSI acquisition in dense cloud-RAN with spatial and temporal prior information.@Xuan Liu,Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2017
+Mobility increases the data offloading ratio in D2D caching networks.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2017
+A tractable framework for performance analysis of dense multi-antenna networks.@Xianghao Yu,Chang Li,Jun Zhang,Khaled Ben Letaief@2017
+LRC: Dependency-aware cache management for data analytics clusters.@Yinghao Yu,Wei Wang,Jun Zhang,Khaled Ben Letaief@2017
+Joint Task Offloading Scheduling and Transmit Power Allocation for Mobile-Edge Computing Systems.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2017
+Mobile Edge Computing: Survey and Research Outlook.@Yuyi Mao,Changsheng You,Jun Zhang,Kaibin Huang,Khaled Ben Letaief@2017
+Alternating Minimization for Hybrid Precoding in Multiuser OFDM mmWave Systems.@Xianghao Yu,Jun Zhang,Khaled Ben Letaief@2017
+Joint Task Offloading Scheduling and Transmit Power Allocation for Mobile-Edge Computing Systems.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2017
+Stochastic Joint Radio and Computational Resource Management for Multi-User Mobile-Edge Computing Systems.@Yuyi Mao,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2017
+Coverage Analysis for Millimeter Wave Networks: The Impact of Directional Antenna Arrays.@Xianghao Yu,Jun Zhang,Martin Haenggi,Khaled Ben Letaief@2017
+A Tractable Framework for Performance Analysis of Dense Multi-Antenna Networks.@Xianghao Yu,Chang Li,Jun Zhang,Khaled Ben Letaief@2017
+Mobility Increases the Data Offloading Ratio in D2D Caching Networks.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2017
+LRC: Dependency-Aware Cache Management for Data Analytics Clusters.@Yinghao Yu,Wei Wang,Jun Zhang,Khaled Ben Letaief@2017
+Partially-Connected Hybrid Precoding in mm-Wave Systems With Dynamic Phase Shifter Networks.@Xianghao Yu,Jun Zhang,Khaled Ben Letaief@2017
+Incentive Mechanism Design for Cache-Assisted D2D Communications: A Mobility-Aware Approach.@Rui Wang,Jun Zhang,Khaled Ben Letaief@2017
+Layered Group Sparse Beamforming for Cache-Enabled Green Wireless Networks.@Xi Peng,Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2017
+Hybrid Precoding in Millimeter Wave Systems: How Many Phase Shifters Are Needed?@Xianghao Yu,Jun Zhang,Khaled Ben Letaief@2017
+LERC: Coordinated Cache Management for Data-Parallel Systems.@Yinghao Yu,Wei Wang,Jun Zhang,Khaled Ben Letaief@2017
+Mobility-aware caching for content-centric wireless networks: modeling and methodology.@Rui Wang,Xi Peng,Jun Zhang,Khaled Ben Letaief@2016
+Smoothed Lp-Minimization for Green Cloud-RAN With User Admission Control.@Yuanming Shi,Jinkun Cheng,Jun Zhang,Bo Bai,Wei Chen,Khaled Ben Letaief@2016
+Dynamic Computation Offloading for Mobile-Edge Computing With Energy Harvesting Devices.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2016
+Alternating Minimization Algorithms for Hybrid Precoding in Millimeter Wave MIMO Systems.@Xianghao Yu,Juei-Chin Shen,Jun Zhang,Khaled Ben Letaief@2016
+Transmit Power Minimization for Wireless Networks With Energy Harvesting Relays.@Yaming Luo,Jun Zhang,Khaled Ben Letaief@2016
+Success Probability and Area Spectral Efficiency in Multiuser MIMO HetNets.@Chang Li,Jun Zhang,Jeffrey G. Andrews,Khaled Ben Letaief@2016
+Grid Energy Consumption and QoS Tradeoff in Hybrid Energy Supply Wireless Networks.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2016
+Compressed CSI Acquisition in FDD Massive MIMO: How Much Training is Needed?@Juei-Chin Shen,Jun Zhang,Emad Alsusa,Khaled Ben Letaief@2016
+Low-Rank Matrix Completion for Topological Interference Management by Riemannian Pursuit.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2016
+Optimal QoS-Aware Channel Assignment in D2D Communications With Partial CSI.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+Alternating minimization for hybrid precoding in multiuser OFDM mmWave systems.@Xianghao Yu,Jun Zhang,Khaled Ben Letaief@2016
+A low-rank approach for interference management in dense wireless networks.@Kai Yang,Yuanming Shi,Jun Zhang,Zhi Ding,Khaled Ben Letaief@2016
+Optimal stochastic power control with compressive CSI acquisition for Cloud-RAN.@Suya,Yuanming Shi,Bo Bai,Wei Chen,Jun Zhang,Khaled Ben Letaief,Shidong Zhou@2016
+Power-Delay Tradeoff in Multi-User Mobile-Edge Computing Systems.@Yuyi Mao,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+Joint Subcarrier and CPU Time Allocation for Mobile Edge Computing.@Yinghao Yu,Jun Zhang,Khaled Ben Letaief@2016
+Selective uplink training for massive MIMO systems.@Changming Li,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+Content caching at the wireless network edge: A distributed algorithm via belief propagation.@Juan Liu,Bo Bai,Jun Zhang,Khaled Ben Letaief@2016
+Cache size allocation in backhaul limited wireless networks.@Xi Peng,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+QoS-aware joint mode selection and channel assignment for D2D communications.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+Statistical group sparse beamforming for green Cloud-RAN via large system analysis.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2016
+Delay-optimal computation task scheduling for mobile-edge computing systems.@Juan Liu,Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2016
+ARQ with adaptive feedback for energy harvesting receivers.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2016
+Coverage analysis for dense millimeter wave cellular networks: The impact of array size.@Xianghao Yu,Jun Zhang,Khaled Ben Letaief@2016
+Transmit Power Minimization for Wireless Networks with Energy Harvesting Relays.@Yaming Luo,Jun Zhang,Khaled Ben Letaief@2016
+Alternating Minimization Algorithms for Hybrid Precoding in Millimeter Wave MIMO Systems.@Xianghao Yu,Juei-Chin Shen,Jun Zhang,Khaled Ben Letaief@2016
+Grid Energy Consumption and QoS Tradeoff in Hybrid Energy Supply Wireless Networks.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2016
+ARQ with Adaptive Feedback for Energy Harvesting Receivers.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2016
+Cache Size Allocation in Backhaul Limited Wireless Networks.@Xi Peng,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+Selective Uplink Training for Massive MIMO Systems.@Changming Li,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+QoS-Aware Joint Mode Selection and Channel Assignment for D2D Communications.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+Low-Rank Matrix Completion for Topological Interference Management by Riemannian Pursuit.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2016
+Delay-Optimal Computation Task Scheduling for Mobile-Edge Computing Systems.@Juan Liu,Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2016
+Mobility-Aware Caching for Content-Centric Wireless Networks: Modeling and Methodology.@Rui Wang,Xi Peng,Jun Zhang,Khaled Ben Letaief@2016
+Dynamic Computation Offloading for Mobile-Edge Computing with Energy Harvesting Devices.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2016
+Mobility-Aware Caching in D2D Networks.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+Joint Subcarrier and CPU Time Allocation for Mobile Edge Computing.@Yinghao Yu,Jun Zhang,Khaled Ben Letaief@2016
+Optimal QoS-Aware Channel Assignment in D2D Communications with Partial CSI.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+Power-Delay Tradeoff in Multi-User Mobile-Edge Computing Systems.@Yuyi Mao,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2016
+Energy harvesting small cell networks: feasibility, deployment, and operation.@Yuyi Mao,Yaming Luo,Jun Zhang,Khaled Ben Letaief@2015
+A Lyapunov Optimization Approach for Green Cellular Networks With Hybrid Energy Supplies.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2015
+User-Centric Intercell Interference Nulling for Downlink Small Cell Networks.@Chang Li,Jun Zhang,Martin Haenggi,Khaled Ben Letaief@2015
+Optimal Stochastic Coordinated Beamforming for Wireless Cooperative Networks With CSI Uncertainty.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2015
+Robust Group Sparse Beamforming for Multicast Green Cloud-RAN With Imperfect CSI.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2015
+Large-Scale Convex Optimization for Dense Wireless Cooperative Networks.@Yuanming Shi,Jun Zhang,Brendan O'Donoghue,Khaled Ben Letaief@2015
+Downlink User Capacity of Massive MIMO Under Pilot Contamination.@Juei-Chin Shen,Jun Zhang,Khaled Ben Letaief@2015
+Large-scale convex optimization for ultra-dense cloud-RAN.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief,Bo Bai,Wei Chen@2015
+Backhaul-Aware Caching Placement for Wireless Networks.@Xi Peng,Juei-Chin Shen,Jun Zhang,Khaled Ben Letaief@2015
+QoS-Aware Channel Assignment for Weighted Sum-Rate Maximization in D2D Communications.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2015
+Hybrid Precoding Design in Millimeter Wave MIMO Systems: An Alternating Minimization Approach.@Xianghao Yu,Juei-Chin Shen,Jun Zhang,Khaled Ben Letaief@2015
+Compressed CSI acquisition in FDD massive MIMO with partial support information.@Juei-Chin Shen,Jun Zhang,Emad Alsusa,Khaled Ben Letaief@2015
+Group sparse beamforming for multicast green Cloud-RAN via parallel semidefinite programming.@Jinkun Cheng,Yuanming Shi,Bo Bai,Wei Chen,Jun Zhang,Khaled Ben Letaief@2015
+Analysis of area spectral efficiency and link reliability in multiuser MIMO HetNets.@Chang Li,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2015
+Low-rank matrix completion via Riemannian pursuit for topological interference management.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2015
+Joint base station assignment and power control in hybrid energy supply wireless networks.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2015
+Energy Harvesting Small Cell Networks: Feasibility, Deployment and Operation.@Yuyi Mao,Yaming Luo,Jun Zhang,Khaled Ben Letaief@2015
+High-Dimensional CSI Acquisition in Massive MIMO: Sparsity-Inspired Approaches.@Juei-Chin Shen,Jun Zhang,Kwang-Cheng Chen,Khaled Ben Letaief@2015
+Large-Scale Convex Optimization for Dense Wireless Cooperative Networks.@Yuanming Shi,Jun Zhang,Brendan O'Donoghue,Khaled Ben Letaief@2015
+Large-Scale Convex Optimization for Ultra-Dense Cloud-RAN.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief,Bo Bai,Wei Chen@2015
+Success Probability and Area Spectral Efficiency in Multiuser MIMO HetNets.@Chang Li,Jun Zhang,Jeffrey G. Andrews,Khaled Ben Letaief@2015
+Backhaul-Aware Caching Placement for Wireless Networks.@Xi Peng,Juei-Chin Shen,Jun Zhang,Khaled Ben Letaief@2015
+A Lyapunov Optimization Approach for Green Cellular Networks with Hybrid Energy Supplies.@Yuyi Mao,Jun Zhang,Khaled Ben Letaief@2015
+Robust Group Sparse Beamforming for Multicast Green Cloud-RAN with Imperfect CSI.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2015
+Smoothed Lp-Minimization for Green Cloud-RAN with User Admission Control.@Yuanming Shi,Jinkun Cheng,Jun Zhang,Bo Bai,Wei Chen,Khaled Ben Letaief@2015
+Throughput and Energy Efficiency Analysis of Small Cell Networks with Multi-Antenna Base Stations.@Chang Li,Jun Zhang,Khaled Ben Letaief@2014
+Group Sparse Beamforming for Green Cloud-RAN.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2014
+Coordinated 3D Beamforming for Interference Management in Cellular Networks.@Nima Seifi,Jun Zhang,Robert W. Heath Jr.,Tommy Svensson,Mikael Coldrey@2014
+Beamforming for small cell deployment in LTE-advanced and beyond.@Giulio Bartoli,Romano Fantacci,Khaled Ben Letaief,Dania Marabissi,Niccolo Privitera,Marco Pucci,Jun Zhang@2014
+Joint link selection and relay power allocation for energy harvesting relaying systems.@Yuyi Mao,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2014
+Scalable coordinated beamforming for dense wireless cooperative networks.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2014
+User capacity of pilot-contaminated TDD massive MIMO systems.@Juei-Chin Shen,Jun Zhang,Khaled Ben Letaief@2014
+CSI overhead reduction with stochastic beamforming for cloud radio access networks.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2014
+User-centric intercell interference coordination in small cell networks.@Chang Li,Jun Zhang,Khaled Ben Letaief@2014
+Joint data assignment and beamforming for backhaul limited caching networks.@Xi Peng,Juei-Chin Shen,Jun Zhang,Khaled Ben Letaief@2014
+Average throughput analysis of downlink cellular networks with multi-antenna base stations.@Rui Wang,Jun Zhang,Shenghui Song,Khaled Ben Letaief@2014
+Location-aware spectrum sharing in cognitive radio networks - A semi-matching approach.@Fangyong Li,Jun Zhang,Khaled Ben Letaief@2014
+Achieving energy diversity with multiple energy harvesting relays.@Yaming Luo,Jun Zhang,Khaled Ben Letaief@2014
+Scalable Coordinated Beamforming for Dense Wireless Cooperative Networks.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2014
+User-Centric Intercell Interference Nulling for Downlink Small Cell Networks.@Chang Li,Jun Zhang,Martin Haenggi,Khaled Ben Letaief@2014
+User Capacity of Pilot-Contaminated TDD Massive MIMO Systems.@Juei-Chin Shen,Jun Zhang,Khaled Ben Letaief@2014
+A Unified Energy Efficiency and Spectral Efficiency Tradeoff Metric in Wireless Networks.@Lei Deng,Yun Rui,Peng Cheng,Jun Zhang,Q. T. Zhang,Mingqi Li@2013
+Optimal Scheduling and Power Allocation for Two-Hop Energy Harvesting Communication Systems.@Yaming Luo,Jun Zhang,Khaled Ben Letaief@2013
+Relay selection for energy harvesting cooperative communication systems.@Yaming Luo,Jun Zhang,Khaled Ben Letaief@2013
+Performance analysis of SDMA in multicell wireless networks.@Chang Li,Jun Zhang,Khaled Ben Letaief@2013
+Residential demand response with power adjustable and unadjustable appliances in smart grid.@Guodong Zhao,Liying Li,Jun Zhang,Khaled Ben Letaief@2013
+Throughput maximization for two-hop energy harvesting communication systems.@Yaming Luo,Jun Zhang,Khaled Ben Letaief@2013
+Energy efficiency analysis of small cell networks.@Chang Li,Jun Zhang,Khaled Ben Letaief@2013
+Throughput and Energy Efficiency Analysis of Small Cell Networks with Multi-antenna Base Stations.@Chang Li,Jun Zhang,Khaled Ben Letaief@2013
+Group Sparse Beamforming for Green Cloud-RAN.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2013
+Optimal Stochastic Coordinated Beamforming with Compressive CSI Acquisition for Cloud-RAN.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2013
+Interference Management with Relay Cooperation in Two-Hop Interference Channels.@Jun Zhang,Khaled Ben Letaief@2012
+Coordinated relay beamforming for amplify-and-forward two-hop interference networks.@Yuanming Shi,Jun Zhang,Khaled Ben Letaief@2012
+Training optimization for energy harvesting communication systems.@Yaming Luo,Jun Zhang,Khaled Ben Letaief@2012
+Location-aware distributed routing in cognitive radio networks.@Fangyong Li,Jun Zhang,Khaled Ben Letaief@2012
+Maximizing energy efficiency in wireless networks with a minimum average throughput requirement.@Chang Li,Shenghui Song,Jun Zhang,Khaled Ben Letaief@2012
+Training Optimization for Energy Harvesting Communication Systems.@Yaming Luo,Jun Zhang,Khaled Ben Letaief@2012
+Optimal Scheduling and Power Allocation for Two-Hop Energy Harvesting Communication Systems.@Yaming Luo,Jun Zhang,Khaled Ben Letaief@2012
+Multimode Transmission in Network MIMO Downlink with Incomplete CSI.@Nima Seifi,Mats Viberg,Robert W. Heath Jr.,Jun Zhang,Mikael Coldrey@2011
+Multi-Mode Transmission for the MIMO Broadcast Channel with Imperfect Channel State Information.@Jun Zhang,Marios Kountouris,Jeffrey G. Andrews,Robert W. Heath Jr.@2011
+On the Accuracy of the Wyner Model in Cellular Networks.@Jiaming Xu,Jun Zhang,Jeffrey G. Andrews@2011
+Optimizing Training and Feedback for Spatial Intercell Interference Cancellation.@Jun Zhang,Jeffrey G. Andrews,Khaled Ben Letaief@2011
+Location-Based Joint Relay Selection and Channel Allocation for Cognitive Radio Networks.@Fangyong Li,Bo Bai,Jun Zhang,Khaled Ben Letaief@2011
+On the Accuracy of the Wyner Model in Downlink Cellular Networks.@Jiaming Xu,Jun Zhang,Jeffrey G. Andrews@2011
+Spatial Intercell Interference Cancellation with CSI Training and Feedback.@Jun Zhang,Jeffrey G. Andrews,Khaled Ben Letaief@2011
+Adaptive Spatial Intercell Interference Cancellation in Multicell Wireless Networks.@Jun Zhang,Jeffrey G. Andrews@2010
+When Does the Wyner Model Accurately Describe an Uplink Cellular Network?@Jiaming Xu,Jun Zhang,Jeffrey G. Andrews@2010
+On the Accuracy of the Wyner Model in Cellular Networks.@Jiaming Xu,Jun Zhang,Jeffrey G. Andrews@2010
+Mode Switching for the Multi-Antenna Broadcast Channel Based on Delay and Channel Quantization.@Jun Zhang,Robert W. Heath Jr.,Marios Kountouris,Jeffrey G. Andrews@2009
+Networked MIMO with clustered linear precoding.@Jun Zhang,Runhua Chen,Jeffrey G. Andrews,Arunabha Ghosh,Robert W. Heath Jr.@2009
+Block Diagonalization in the MIMO Broadcast Channel with Delayed CSIT.@Jun Zhang,Jeffrey G. Andrews,Robert W. Heath Jr.@2009
+Achievable throughput of multi-mode multiuser MIMO with imperfect CSI constraints.@Jun Zhang,Marios Kountouris,Jeffrey G. Andrews,Robert W. Heath Jr.@2009
+Multi-mode Transmission for the MIMO Broadcast Channel with Imperfect Channel State Information.@Jun Zhang,Marios Kountouris,Jeffrey G. Andrews,Robert W. Heath Jr.@2009
+Adaptive Spatial Intercell Interference Cancellation in Multicell Wireless Networks.@Jun Zhang,Jeffrey G. Andrews@2009
+Cooperative protocols for multiple-source multiple-relay wireless networks.@Jun Zhang,Tat-Ming Lok@2008
+Distributed Antenna Systems with Randomness.@Jun Zhang,Jeffrey G. Andrews@2008
+Networked MIMO with Clustered Linear Precoding.@Jun Zhang,Runhua Chen,Jeffrey G. Andrews,Arunabha Ghosh,Robert W. Heath Jr.@2008
+Mode Switching for MIMO Broadcast Channel Based on Delay and Channel Quantization.@Jun Zhang,Robert W. Heath Jr.,Marios Kountouris,Jeffrey G. Andrews@2008
+Achievable Throughput of Multi-mode Multiuser MIMO with Imperfect CSI Constraints.@Jun Zhang,Marios Kountouris,Jeffrey G. Andrews,Robert W. Heath Jr.@2008
+Cellular Communication with Randomly Placed Distributed Antennas.@Jun Zhang,Jeffrey G. Andrews@2007
+Key Element-Context Model: An Approach to Efficient Web Metadata Maintenance.@Ba-Quy Vuong,Ee-Peng Lim,Aixin Sun,Chew-Hung Chang,Kalyani Chatterjea,Dion Hoe-Lian Goh,Yin Leng Theng,Jun Zhang@2007
+Social Navigation in Digital Libraries by Bookmarking.@Fiftarina Puspitasari,Ee-Peng Lim,Dion Hoe-Lian Goh,Chew-Hung Chang,Jun Zhang,Aixin Sun,Yin Leng Theng,Kalyani Chatterjea,Yuanyuan Li@2007
+Mobile G-Portal supporting collaborative sharing and learning in geography fieldwork: an empirical study.@Yin Leng Theng,Kuah-Li Tan,Ee-Peng Lim,Jun Zhang,Dion Hoe-Lian Goh,Kalyani Chatterjea,Chew-Hung Chang,Aixin Sun,Han Yu,Nam Hai Dang,Yuanyuan Li,Minh Chanh Vo@2007
+Social bookmarking in digital library systems: framework and case study.@Fiftarina Puspitasari,Ee-Peng Lim,Dion Hoe-Lian Goh,Chew-Hung Chang,Jun Zhang,Aixin Sun,Yin Leng Theng,Kalyani Chatterjea,Yuanyuan Li@2007
+Mobile digital libraries for geography education.@Minh Chanh Vo,Fiftarina Puspitasari,Ee-Peng Lim,Chew-Hung Chang,Yin Leng Theng,Dion Hoe-Lian Goh,Kalyani Chatterjea,Jun Zhang,Aixin Sun,Yuanyuan Li@2007
+Bursty Feature Representation for Clustering Text Streams.@Qi He,Kuiyu Chang,Ee-Peng Lim,Jun Zhang@2007
+A new dependable exchange protocol.@Hao Wang,Heqing Guo,Manshan Lin,Jianfei Yin,Qi He,Jun Zhang@2006
+G-Portal - A Cross Disciplinary Digital Library Research Program from Singapore.@Ee-Peng Lim,Jun Zhang,Yuanyuan Li,Zhe Wang,Chew-Hung Chang,Kalyani Chatterjea,Dion Hoe-Lian Goh,Yin-Leng Theng@2006
+In-Network Join Processing for Sensor Networks.@Hai Yu,Ee-Peng Lim,Jun Zhang@2006
+Integration of Wikipedia and a Geography Digital Library.@Ee-Peng Lim,Zhe Wang,D. Sadeli,Yuanyuan Li,Chew-Hung Chang,Kalyani Chatterjea,Dion Hoe-Lian Goh,Yin Leng Theng,Jun Zhang,Aixin Sun@2006
+Understanding User Perceptions on Usefulness and Usability of an Integrated Wiki-G-Portal.@Yin Leng Theng,Yuanyuan Li,Ee-Peng Lim,Zhe Wang,Dion Hoe-Lian Goh,Chew-Hung Chang,Kalyani Chatterjea,Jun Zhang@2006
+On In-network Synopsis Join Processing for Sensor Networks.@Hai Yu,Ee-Peng Lim,Jun Zhang@2006
+Query processing in spatial databases containing obstacles.@Jun Zhang,Dimitris Papadias,Kyriakos Mouratidis,Manli Zhu@2005
+Top-k Spatial Joins.@Manli Zhu,Dimitris Papadias,Jun Zhang,Dik Lun Lee@2005
+Dependable Transaction for Electronic Commerce.@Hao Wang,Heqing Guo,Manshan Lin,Jianfei Yin,Qi He,Jun Zhang@2005
+Abuse-Free Item Exchange.@Hao Wang,Heqing Guo,Jianfei Yin,Qi He,Manshan Lin,Jun Zhang@2005
+An information extraction engine for web discussion forums.@Hanny Yulius Limanto,Nguyen Ngoc Giang,Vo Tan Trung,Jun Zhang,Qi He,Quang Huy Nguyen@2005
+An Efficient Cost Model for Optimization of Nearest Neighbor Search in Low and Medium Dimensional Spaces.@Yufei Tao,Jun Zhang,Dimitris Papadias,Nikos Mamoulis@2004
+Spatial Queries in the Presence of Obstacles.@Jun Zhang,Dimitris Papadias,Kyriakos Mouratidis,Manli Zhu@2004
+All-Nearest-Neighbors Queries in Spatial Databases.@Jun Zhang,Nikos Mamoulis,Dimitris Papadias,Yufei Tao@2004
+Location-based Spatial Queries.@Jun Zhang,Manli Zhu,Dimitris Papadias,Yufei Tao,Dik Lun Lee@2003
+Query Processing in Spatial Network Databases.@Dimitris Papadias,Jun Zhang,Nikos Mamoulis,Yufei Tao@2003
+Indexing and Retrieval of Historical Aggregate Information about Moving Objects.@Dimitris Papadias,Yufei Tao,Jun Zhang,Nikos Mamoulis,Qiongmao Shen,Jimeng Sun@2002
+Cost models for overlapping and multiversion structures.@Yufei Tao,Dimitris Papadias,Jun Zhang@2002
+Aggregate Processing of Planar Points.@Yufei Tao,Dimitris Papadias,Jun Zhang@2002
+Indexing Spatio-Temporal Data Warehouses.@Dimitris Papadias,Yufei Tao,Panos Kalnis,Jun Zhang@2002
+Cost Models for Overlapping and Multi-Version B-Trees.@Yufei Tao,Dimitris Papadias,Jun Zhang@2002
+Efficient OLAP Operations in Spatial Data Warehouses.@Dimitris Papadias,Panos Kalnis,Jun Zhang,Yufei Tao@2001
+Multi-grid nonlocal techniques for x-ray scatter correction.@Yingying Gu,Jun Zhang,Ping Xue@2018
+Scatter correction by non-local techniques.@Yingying Gu,Jun Zhang,Ping Xue@2017
+Weight-based sparse coding for multi-shot person re-identification.@Yanwei Zheng,Hao Sheng,Beichen Zhang,Jun Zhang,Zhang Xiong@2015
+Automatic Patient Search Using Bernoulli Model.@Yingying Gu,Christopher Kallas,Jun Zhang,James Marx,Judy Tjoe@2013
+Automated search for patient records: classification of free-text medical reports using conditional random fields.@Ivko Cvejic,Jun Zhang,James Marx,Judy Tjoe@2012
+Multi-slice and multi-frame image reconstruction by predictive compressed sensing.@Jun Zhang,Jun Wang,Guangwu Xu,Jean-Baptiste Thibault@2012
+Novel Technique for Vision-Based UAV Navigation.@Jun Zhang,Weisong Liu,Yirong Wu@2011
+Automatic patient search for breast cancer clinical trials using free-text medical reports.@Jun Zhang,Yingying Gu,Weisong Liu,Wen Hu,Tian Zhao,Xiangming Mu,James Marx,Floyd Frost,Judy Tjoe@2010
+Relations between $\beta$ and $\delta$ for QP and LP in Compressed Sensing Computations.@Jun Zhang,Jun Wang,Guangwu Xu@2010
+On recovery of sparse signals via l1 minimization.@T. Tony Cai,Guangwu Xu,Jun Zhang@2009
+On Recovery of Sparse Signals via ℓ1 Minimization.@T. Tony Cai,Guangwu Xu,Jun Zhang@2008
+Nonlinear prediction for Gaussian mixture image models.@Jun Zhang,Dehong Ma@2004
+Object representation and recognition in shape spaces.@Jun Zhang,X. Zhang,Hamid Krim,Gilbert G. Walter@2003
+A unified framework for resource discovery and QoS-aware provider selection in ad hoc networks.@Jiangchuan Liu,Qian Zhang,Bo Li,Wenwu Zhu,Jun Zhang@2002
+A novel framework for QoS-aware resource discovery in mobile ad hoc networks.@Jiangchuan Liu,Qian Zhang,Wenwu Zhu,Jun Zhang,Bin Li@2002
+Image sequence segmentation using 3-D structure tensor and curve evolution.@Jun Zhang,Jianbo Gao,Weisong Liu@2001
+Image sequence segmentation using curve evolution and improved background subtraction.@Weisong Liu,Jun Zhang@2001
+A Novel Multiresolution Color Image Segmentation Technique and its Application to Dermatoscopic Image Segmentation.@Jianbo Gao,Jun Zhang,Matthew G. Fleming@2000
+Figure-ground separation by a dynamical system.@Jun Zhang,Jianbo Gao,Jiangchuan Liu@1999
+Regularized total least squares approach for nonconvolutional linear inverse problems.@Wenwu Zhu,Yao Wang,Nikolas P. Galatsanos,Jun Zhang@1999
+Image segmentation by multigrid Markov random field optimization and perceptual considerations.@Jun Zhang,Dongyan Wang@1998
+Cluster validation for unsupervised stochastic model-based image segmentation.@David A. Langan,James W. Modestino,Jun Zhang@1998
+A wavelet-based multiresolution statistical model for texture.@Jun Zhang,Dongyan Wang,Que N. Tran@1998
+Orthonormal wavelets with simple closed-form expressions.@Gilbert G. Walter,Jun Zhang@1998
+Segmentation of Dermatoscopic Images by Stabilized Inverse Diffusion Equations.@Jianbo Gao,Jun Zhang,Matthew G. Fleming,Ilya Pollak,Armand B. Cognetta Jr.@1998
+Regularized Total Least Squares Reconstruction for Optical Tomographic Imaging Using Conjugate Gradient Method.@Wenwu Zhu,Yao Wang,Nikolas P. Galatsanos,Jun Zhang@1997
+The application of the Gibbs-Bogoliubov-Feynman inequality in mean field calculations for Markov random fields.@Jun Zhang@1996
+The convergence of mean field procedures for MRFs [image processing].@Jun Zhang@1996
+The application of mean field theory to image motion estimation.@Jun Zhang,Gerald G. Hanauer@1995
+Parameter reduction for the compound Gauss-Markov model.@Jun Zhang@1995
+Wavelet neural networks for function learning.@Jun Zhang,Gilbert G. Walter,Y. Miao,Wan Ngai Wayne Lee@1995
+Figure-ground separation by a neural dynamical system.@Jun Zhang,Jianhua Lin@1995
+Maximum-likelihood parameter estimation for unsupervised stochastic model-based image segmentation.@Jun Zhang,James W. Modestino,David A. Langan@1994
+Cluster Validation for Unsupervised Stochastic Model-Based Image Segmentation.@David A. Langan,James W. Modestino,Jun Zhang@1994
+The mean field theory in EM procedures for blind Markov random field image restoration.@Jun Zhang@1993
+Wavelets based on band-limited processes with a K-L type property.@Gilbert G. Walter,Jun Zhang@1993
+A Markov Random Field Model-Based Approach to Image Interpretation.@James W. Modestino,Jun Zhang@1992
+A Model-Fitting Approach to Cluster Validation with Application to Stochastic Model-Based Image Segmentation.@Jun Zhang,James W. Modestino@1990
+A Markov random field model-based approach to image interpretation.@James W. Modestino,Jun Zhang@1989
+Hybrid fusion and interpolation algorithm with near-infrared image.@Xiaoyan Luo,Jun Zhang,Qionghai Dai@2015
+Vector field guidance for three-dimensional curved path following with fixed-wing UAVs.@Yueqian Liang,Yingmin Jia,Junping Du,Jun Zhang@2015
+On iterative learning algorithms for the formation control of nonlinear multi-agent systems.@Deyuan Meng,Yingmin Jia,Junping Du,Jun Zhang@2014
+Input-output decoupling by output feedback with disturbance attenuation of H∞ control for any square system.@Mingxing Li,Yingmin Jia,Junping Du,Jun Zhang@2014
+Hierarchical incorporation of shape and shape dynamics for flying bird detection.@Jun Zhang,Qunyu Xu,Xianbin Cao,Pingkun Yan,Xuelong Li@2014
+Distributed multiple model estimation for jump Markov linear systems with missing measurements.@Wenling Li,Yingmin Jia,Junping Du,Jun Zhang@2014
+Robust object tracking using least absolute deviation.@Jingyu Yan,Fuxiang Wang,Xianbin Cao,Jun Zhang@2014
+PHD filter for multi-target tracking with glint noise.@Wenling Li,Yingmin Jia,Junping Du,Jun Zhang@2014
+Object-aware power line detection using color and near-infrared images.@Xiaoyan Luo,Jun Zhang,Xianbin Cao,Pingkun Yan,Xuelong Li@2014
+Finite-Time Synchronous Control for Multiple Manipulators With Sensor Saturations and a Constant Reference.@Bin Zhang,Yingmin Jia,Junping Du,Jun Zhang@2014
+Efficient Parallel Framework for HEVC Motion Estimation on Many-Core Processors.@Chenggang Clarence Yan,Yongdong Zhang,Jizheng Xu,Feng Dai,Jun Zhang,Qionghai Dai,Feng Wu@2014
+Output feedback tracking control for spacecraft relative translation subject to input constraints and partial loss of control effectiveness.@Lin Zhao,Yingmin Jia,Junping Du,Jun Zhang@2014
+Robust H∞ consensus control of uncertain multi-agent systems with nonlinear dynamics and time-varying delays.@Ping Wang,Yingmin Jia,Junping Du,Jun Zhang@2014
+Relay selection with outdated channel state information in cooperative communication systems.@Li Fei,Qiang Gao,Jun Zhang,Qifeng Xu@2013
+Robust state estimation for jump Markov linear systems with missing measurements.@Wenling Li,Yingmin Jia,Junping Du,Jun Zhang@2013
+Robust blind motion deblurring using near-infrared flash image.@Wen Li,Jun Zhang,Qionghai Dai@2013
+Distributed Multiple-Model Estimation for Simultaneous Localization and Tracking With NLOS Mitigation.@Wenling Li,Yingmin Jia,Junping Du,Jun Zhang@2013
+Transcale LQ tracking control for a class of discrete systems based on wavelet packet decomposition.@Lin Zhao,Yue Lin,Yingmin Jia,Yawen Li,Jun Zhang@2013
+State estimation for jump Markov linear systems with uncompensated biases.@Wenling Li,Yingmin Jia,Junping Du,Jun Zhang,Deyuan Meng@2013
+Formation learning algorithms for mobile agents subject to 2-D dynamically changing topologies.@Deyuan Meng,Yingmin Jia,Junping Du,Jun Zhang,Wenling Li@2013
+Finite-time consensus control for multiple manipulators with unmodeled dynamics.@Bin Zhang,Yingmin Jia,Junping Du,Jun Zhang@2013
+H∞ filtering with diagonal interacting multiple model algorithm for maneuvering target tracking.@X. Fu,Yingmin Jia,Junping Du,Jun Zhang,Wenling Li,X. Liu@2013
+PHD filter for multi-target tracking by variational Bayesian approximation.@Wenling Li,Yingmin Jia,Junping Du,Jun Zhang@2013
+Using computational intelligence for large scale air route networks design.@Kaiquan Cai,Jun Zhang,Chi Zhou,Xianbin Cao,Ke Tang@2012
+A regional image fusion based on similarity characteristics.@Xiaoyan Luo,Jun Zhang,Qionghai Dai@2012
+Simultaneous scan-based emitter passive localization and receiver trajectory optimization.@Yueqian Liang,Yingmin Jia,Junping Du,Jun Zhang@2012
+Hierarchical control for path tracking of autonomous vehicles.@Changfang Chen,Yingmin Jia,Junping Du,Jun Zhang@2012
+A real-time schedule method for Aircraft Landing Scheduling problem based on Cellular Automation.@Shengpeng Yu,Xianbin Cao,Jun Zhang@2011
+Video denoising using shape-adaptive sparse representation over similar spatio-temporal patches.@Wen Li,Jun Zhang,Qionghai Dai@2011
+Energy-Efficient Multihop Cooperative MISO Transmission with Optimal Hop Distance in Wireless Ad Hoc Networks.@Jun Zhang,Li Fei,Qiang Gao,Xiao-Hong Peng@2011
+Exploring aligned complementary image pair for blind motion deblurring.@Wen Li,Jun Zhang,Qionghai Dai@2011
+Cooperative Co-evolution with Weighted Random Grouping for Large-Scale Crossing Waypoints Locating in Air Route Network.@Mingming Xiao,Jun Zhang,Kaiquan Cai,Xianbin Cao,Ke Tang@2011
+Performance of unknown and arbitrary sparse signal detection using convex programming method with compressive measurements.@Chuan Lei,Jun Zhang,Qiang Gao@2011
+Evolution of Chinese airport network.@Jun Zhang,Xianbin Cao,Wenbo Du,Kaiquan Cai@2011
+Performance optimisation of a medium access control protocol with multiple contention slots in multiple-input multiple-output ad hoc networks.@Qiang Gao,Li Fei,Jun Zhang,Xiao-Hong Peng@2010
+Energy saving in cluster-based wireless sensor networks through cooperative MIMO with idle-node participation.@Li Fei,Qiang Gao,Jun Zhang,Gang Wang@2010
+Classification-based image-fusion framework for compressive imaging.@Xiaoyan Luo,Jun Zhang,Jingyu Yang,Qionghai Dai@2010
+Improving Energy Efficiency in a Wireless Sensor Network by Combining Cooperative MIMO With Data Aggregation.@Qiang Gao,Yi Zuo,Jun Zhang,Xiao-Hong Peng@2010
+Application examples of the network fixed point theory for space-air-ground integrated communication network.@Hui Liu,Jun Zhang,L. L. Cheng@2010
+An efficient hybrid routing based on contact history in delay tolerant networks.@Shi Chen,Jun Zhang,Qiang Gao@2010
+Virus-evolutionary genetic algorithm based selective ensemble classifier for pedestrian detection.@Bo Ning,Xianbin Cao,Yan Wu Xu,Jun Zhang@2009
+A real-time schedule method for aircraft landing scheduling problem based on cellular automaton.@Shengpeng Yu,Xianbin Cao,Maobin Hu,Wenbo Du,Jun Zhang@2009
+Image fusion in compressed sensing.@Xiaoyan Luo,Jun Zhang,Jingyu Yang,Qionghai Dai@2009
+High dynamic adaptive mobility network model and performance analysis.@Hui Liu,Jun Zhang@2008
+Impact of transmit power on throughput performance in wireless ad hoc networks with variable rate control.@Xu Zhang,Qiang Gao,Jun Zhang,Gang Wang@2008
+A multi-objective evolutionary approach to aircraft landing scheduling problems.@Ke Tang,Zai Wang,Xianbin Cao,Jun Zhang@2008
+Multiobjective evolutionary algorithm with constraint handling for aircraft landing scheduling.@Yuanping Guo,Xianbin Cao,Jun Zhang@2008
+Regularly visited patches in human mobility.@Yan Qu,Jun Zhang@2013
+Understanding user spatial behaviors for location-based recommendations.@Jun Zhang,Chun-yuen Teng,Yan Qu@2013
+Trade area analysis using user generated mobile location data.@Yan Qu,Jun Zhang@2013
+Microblogging after a major disaster in China: a case study of the 2010 Yushu earthquake.@Yan Qu,Chen Huang,Pengyi Zhang,Jun Zhang@2011
+A case study of micro-blogging in the enterprise: use, value, and related issues.@Jun Zhang,Yan Qu,Jane Cody,Yulingling Wu@2010
+User Acceptance of Micro-Blogging in the Enterprise.@Jun Zhang,Yan Qu,Derek L. Hansen@2010
+Knowledge sharing and yahoo answers: everyone knows something.@Lada A. Adamic,Jun Zhang,Eytan Bakshy,Mark S. Ackerman@2008
+Understanding the sharing of rival information: A simulation approach.@Yan Qu,Jun Zhang@2007
+SISN: A Toolkit for Augmenting Expertise Sharing Via Social Networks.@Jun Zhang,Yang Ye,Mark S. Ackerman,Yan Qu@2007
+QuME: a mechanism to support expertise finding in online help-seeking communities.@Jun Zhang,Mark S. Ackerman,Lada A. Adamic,Kevin Kyung Nam@2007
+Expertise networks in online communities: structure and algorithms.@Jun Zhang,Mark S. Ackerman,Lada A. Adamic@2007
+Searching for expertise in social networks: a simulation of potential strategies.@Jun Zhang,Mark S. Ackerman@2005
+Browsers to Support Awareness and Social Interaction.@Alison Lee,Andreas Girgensohn,Jun Zhang@2004
+SWIM: fostering social network based information search.@Jun Zhang,Marshall W. van Alstyne@2004
+Null preference and the resolution of the topological social choice paradox.@Mark Greenfield,Jun Zhang@2018
+Connecting Information Geometry and Geometric Mechanics.@Melvin Leok,Jun Zhang@2017
+Vector-valued reproducing kernel Banach spaces with applications to multi-task learning.@Haizhang Zhang,Jun Zhang@2013
+Regularized learning in Banach spaces as an optimization problem: representer theorems.@Haizhang Zhang,Jun Zhang@2012
+Reproducing Kernel Banach Spaces for Machine Learning.@Haizhang Zhang,Yuesheng Xu,Jun Zhang@2009
+Adaptive learning via selectionism and Bayesianism, Part I: Connection between the two.@Jun Zhang@2009
+Adaptive learning via selectionism and Bayesianism, Part II: The sequential case.@Jun Zhang@2009
+A Dynamic Systems Model of Infant Attachment.@Gregory T. Stevens,Jun Zhang@2009
+Reproducing kernel Banach spaces for machine learning.@Haizhang Zhang,Yuesheng Xu,Jun Zhang@2009
+Dynamics of Learning Near Singularities in Layered Networks.@Haikun Wei,Jun Zhang,Florent Cousseau,Tomoko Ozeki,Shun-ichi Amari@2008
+Divergence Function, Duality, and Convex Analysis.@Jun Zhang@2004
+A Model for Resolution Enhancement (Hyperacuity) in Sensory Representation.@Jun Zhang,John P. Miller@1988
+High-rate and high-capacity measurement-device-independent quantum key distribution with Fibonacci matrix coding in free space.@Hong Lai,Mingxing Luo,Josef Pieprzyk,Jun Zhang,Lei Pan,Mehmet A. Orgun@2018
+JFCGuard: Detecting juice filming charging attack via processor usage analysis on smartphones.@Weizhi Meng,Lijun Jiang,Yu Wang,Jin Li,Jun Zhang,Yang Xiang@2018
+Detecting and Preventing Cyber Insider Threats: A Survey.@Liu Liu,Olivier Y. de Vel,Qing-Long Han,Jun Zhang,Yang Xiang@2018
+Comprehensive analysis of network traffic data.@Yuantian Miao,Zichan Ruan,Lei Pan,Jun Zhang,Yang Xiang@2018
+Big network traffic data visualization.@Zichan Ruan,Yuantian Miao,Lei Pan,Yang Xiang,Jun Zhang@2018
+A large-alphabet three-party quantum key distribution protocol based on orbital and spin angular momenta hybrid entanglement.@Hong Lai,Mingxing Luo,Jun Zhang,Josef Pieprzyk,Lei Pan,Mehmet A. Orgun@2018
+Exploring Feature Coupling and Model Coupling for Image Source Identification.@Yonggang Huang,Longbing Cao,Jun Zhang,Lei Pan,Yuying Liu@2018
+Cross-Project Transfer Representation Learning for Vulnerable Function Discovery.@Guanjun Lin,Jun Zhang,Wei Luo,Lei Pan,Yang Xiang,Olivier Y. de Vel,Paul Montague@2018
+A Data-driven Attack against Support Vectors of SVM.@Shigang Liu,Jun Zhang,Yu Wang,Wanlei Zhou,Yang Xiang,Olivier Y. de Vel@2018
+Who Spread to Whom? Inferring Online Social Networks with User Features.@Derek Wang,Wanlei Zhou,James Xi Zheng,Sheng Wen,Jun Zhang,Yang Xiang@2018
+Automated Big Traffic Analytics for Cyber Security.@Yuantian Miao,Zichan Ruan,Lei Pan,Yu Wang,Jun Zhang,Yang Xiang@2018
+Android HIV: A Study of Repackaging Malware for Evading Machine-Learning Detection.@Xiao Chen,Chaoran Li,Derui Wang,Sheng Wen,Jun Zhang,Surya Nepal,Yang Xiang,Kui Ren@2018
+Statistical Twitter Spam Detection Demystified: Performance, Stability and Scalability.@Guanjun Lin,Nan Sun,Surya Nepal,Jun Zhang,Yang Xiang,Houcine Hassan@2017
+Addressing the class imbalance problem in Twitter spam detection using ensemble learning.@Shigang Liu,Yu Wang,Jun Zhang,Chao Chen,Yang Xiang@2017
+Detecting spamming activities in twitter based on deep-learning technique.@Tingmin Wu,Sheng Wen,Shigang Liu,Jun Zhang,Yang Xiang,Majed A. AlRubaian,Mohammad Mehedi Hassan@2017
+Investigating the deceptive information in Twitter spam.@Chao Chen,Sheng Wen,Jun Zhang,Yang Xiang,Jonathan Oliver,Abdulhameed Alelaiwi,Mohammad Mehedi Hassan@2017
+Fuzzy-Based Information Decomposition for Incomplete and Imbalanced Data Learning.@Shigang Liu,Jun Zhang,Yang Xiang,Wanlei Zhou@2017
+Statistical Features-Based Real-Time Detection of Drifted Twitter Spam.@Chao Chen,Yu Wang,Jun Zhang,Yang Xiang,Wanlei Zhou,Geyong Min@2017
+Twitter spam detection based on deep learning.@Tingmin Wu,Shigang Liu,Jun Zhang,Yang Xiang@2017
+POSTER: Vulnerability Discovery with Function Representation Learning from Unlabeled Projects.@Guanjun Lin,Jun Zhang,Wei Luo,Lei Pan,Yang Xiang@2017
+Catch Me If You Can: Detecting Compromised Users Through Partial Observation on Networks.@Derek Wang,Sheng Wen,Yang Xiang,Wanlei Zhou,Jun Zhang,Surya Nepal@2017
+Security and reliability in big data.@Yang Xiang,Ivan Stojmenovic,Peter Mueller,Jun Zhang@2016
+Spammers Are Becoming "Smarter" on Twitter.@Chao Chen,Jun Zhang,Yang Xiang,Wanlei Zhou,Jonathan Oliver@2016
+Comments and Corrections.@Chao Chen,Jun Zhang,Yi Xie,Yang Xiang,Wanlei Zhou,Mohammad Mehedi Hassan,Abdulhameed Alelaiwi@2016
+Comprehensive Analysis of Network Traffic Data.@Yuantian Miao,Zichan Ruan,Lei Pan,Jun Zhang,Yang Xiang,Yu Wang@2016
+Fuzzy-Based Feature and Instance Recovery.@Shigang Liu,Jun Zhang,Yu Wang,Yang Xiang@2016
+Statistical Detection of Online Drifting Twitter Spam: Invited Paper.@Shigang Liu,Jun Zhang,Yang Xiang@2016
+A Performance Evaluation of Machine Learning-Based Streaming Spam Tweets Detection.@Chao Chen,Jun Zhang,Yi Xie,Yang Xiang,Wanlei Zhou,Mohammad Mehedi Hassan,Abdulhameed Alelaiwi,Majed A. AlRubaian@2015
+Camera Model Identification With Unknown Models.@Yonggang Huang,Jun Zhang,Heyan Huang@2015
+Robust Network Traffic Classification.@Jun Zhang,Xiao Chen,Yang Xiang,Wanlei Zhou,Jie Wu@2015
+6 million spam tweets: A large ground truth for timely Twitter spam detection.@Chao Chen,Jun Zhang,Xiao Chen,Yang Xiang,Wanlei Zhou@2015
+Robust Traffic Classification with Mislabelled Training Samples.@Binfeng Wang,Jun Zhang,Zili Zhang,Wei Luo,Dawen Xia@2015
+Asymmetric self-learning for tackling Twitter Spam Drift.@Chao Chen,Jun Zhang,Yang Xiang,Wanlei Zhou@2015
+Enhanced Twitter Sentiment Analysis by Using Feature Selection and Combination.@Ang Yang,Jun Zhang,Lei Pan,Yang Xiang@2015
+Internet traffic clustering with side information.@Yu Wang,Yang Xiang,Jun Zhang,Wanlei Zhou,Bailin Xie@2014
+The maximum imputation framework for neighborhood-based collaborative filtering.@Yongli Ren,Gang Li,Jun Zhang,Wanlei Zhou@2014
+Modeling and Analysis on the Propagation Dynamics of Modern Email Malware.@Sheng Wen,Wei Zhou,Jun Zhang,Yang Xiang,Wanlei Zhou,Weijia Jia,Cliff C. Zou@2014
+Internet Traffic Classification Using Constrained Clustering.@Yu Wang,Yang Xiang,Jun Zhang,Wanlei Zhou,Guiyi Wei,Laurence T. Yang@2014
+On Addressing the Imbalance Problem: A Correlated KNN Approach for Network Traffic Classification.@Di Wu,Xiao Chen,Chao Chen,Jun Zhang,Yang Xiang,Wanlei Zhou@2014
+Robust image retrieval with hidden classes.@Jun Zhang,Lei Ye,Yang Xiang,Wanlei Zhou@2013
+Unsupervised traffic classification using flow statistical properties and IP packet payload.@Jun Zhang,Yang Xiang,Wanlei Zhou,Yu Wang@2013
+Lazy Collaborative Filtering for Data Sets With Missing Values.@Yongli Ren,Gang Li,Jun Zhang,Wanlei Zhou@2013
+Internet Traffic Classification by Aggregating Correlated Naive Bayes Predictions.@Jun Zhang,Chao Chen,Yang Xiang,Wanlei Zhou,Yong Xiang@2013
+An Effective Network Traffic Classification Method with Unknown Flow Detection.@Jun Zhang,Chao Chen,Yang Xiang,Wanlei Zhou,Athanasios V. Vasilakos@2013
+Network Traffic Classification Using Correlation Information.@Jun Zhang,Yang Xiang,Yu Wang,Wanlei Zhou,Yong Xiang,Yong Guan@2013
+Modeling Propagation Dynamics of Social Network Worms.@Sheng Wen,Wei Zhou,Jun Zhang,Yang Xiang,Wanlei Zhou,Weijia Jia@2013
+AdaM: adaptive-maximum imputation for neighborhood-based collaborative filtering.@Yongli Ren,Gang Li,Jun Zhang,Wanlei Zhou@2013
+Robust network traffic identification with unknown applications.@Jun Zhang,Chao Chen,Yang Xiang,Wanlei Zhou@2013
+Traffic Identification in Semi-known Network Environment.@Xiao Chen,Jun Zhang,Yang Xiang,Wanlei Zhou@2013
+Zero-Day Traffic Identification.@Jun Zhang,Xiao Chen,Yang Xiang,Wanlei Zhou@2013
+Network traffic clustering using Random Forest proximities.@Yu Wang,Yang Xiang,Jun Zhang@2013
+Clonewise - Detecting Package-Level Clones Using Machine Learning.@Silvio Cesare,Yang Xiang,Jun Zhang@2013
+QDFA: Query-Dependent Feature Aggregation for Medical Image Retrieval.@Yonggang Huang,Dianfu Ma,Jun Zhang,Yongwang Zhao@2012
+A New Re-Ranking Method Using Enhanced Pseudo-Relevance Feedback for Content-Based Medical Image Retrieval.@Yonggang Huang,Jun Zhang,Yongwang Zhao,Dianfu Ma@2012
+Semi-supervised and compound classification of network traffic.@Jun Zhang,Chao Chen,Yang Xiang,Wanlei Zhou@2012
+The efficient imputation method for neighborhood-based collaborative filtering.@Yongli Ren,Gang Li,Jun Zhang,Wanlei Zhou@2012
+Semi-supervised and Compound Classification of Network Traffic.@Jun Zhang,Chao Chen,Yang Xiang,Wanlei Zhou@2012
+Internet traffic clustering with constraints.@Yu Wang,Yang Xiang,Jun Zhang,Shunzheng Yu@2012
+Classification of Correlated Internet Traffic Flows.@Jun Zhang,Chao Chen,Yang Xiang,Wanlei Zhou@2012
+Secure Image Retrieval Based on Visual Content and Watermarking Protocol.@Jun Zhang,Yang Xiang,Wanlei Zhou,Lei Ye,Yi Mu@2011
+A novel semi-supervised approach for network traffic clustering.@Yu Wang,Yang Xiang,Jun Zhang,Shun-Zheng Yu@2011
+Series feature aggregation for content-based image retrieval.@Jun Zhang,Lei Ye@2010
+Effective watermarking scheme in the encrypted domain for buyer-seller watermarking protocol.@Bin Zhao,Weidong Kou,Hui Li,Lanjun Dang,Jun Zhang@2010
+Local aggregation function learning based on support vector machines.@Jun Zhang,Lei Ye@2009
+Content Based Image Retrieval Using Unclean Positive Examples.@Jun Zhang,Lei Ye@2009
+Image retrieval based on bag of images.@Jun Zhang,Lei Ye@2009
+Image retrieval using noisy query.@Jun Zhang,Lei Ye@2009
+Watermarking protocol for protecting user's right in content based image retrieval.@Jun Zhang,Lei Ye@2009
+Watermarking protocol of secure verification.@Jun Zhang,Weidong Kou,Kai Fan,Lei Ye@2007
+A Watermarking Scheme in the Encrypted Domain for Watermarking Protocol.@Bin Zhao,Lanjun Dang,Weidong Kou,Jun Zhang,Zan Li,Kai Fan@2007
+Design of Secure Watermarking Scheme for Watermarking Protocol.@Bin Zhao,Lanjun Dang,Weidong Kou,Jun Zhang,Xuefei Cao@2007
