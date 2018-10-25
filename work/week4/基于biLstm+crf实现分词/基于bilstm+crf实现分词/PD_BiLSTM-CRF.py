@@ -90,7 +90,7 @@ class nn:
 
         model = self.constructModel()
         #print (crf_layer.accuracy)
-        result = model.fit(self.train_X, self.train_Y, batch_size=self.batchSize, epochs=1)
+        result = model.fit(self.train_X, self.train_Y, batch_size=self.batchSize, epochs=10)
         #print ("我得结果")
         #print  (result)
         # model.save(
@@ -113,8 +113,6 @@ def main():
     dataset, labels, wordvocab = load(r'PDdatas.json')
     #送入模型进行训练
     trainLSTM = nn(dataset, labels, wordvocab).trainingModel()
-    #print('----- try load model -----')
-    #trainLSTM.TryLoadModel()
 
 
 if __name__ == '__main__':

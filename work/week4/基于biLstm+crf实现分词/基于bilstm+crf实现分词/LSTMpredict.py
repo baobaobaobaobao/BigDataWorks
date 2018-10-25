@@ -130,11 +130,10 @@ def main():
     # f.close()  # 将文件关闭
     #print (str)
 
-    modelpath = r'week4.h5'
+
     dataset, labels, wordvocab = load(r'PDdatas.json')
     #送入模型进行训练
-    #trainLSTM = Predictnn(dataset, labels, wordvocab)
-   # model = trainLSTM.constructModel()
+
     modelpath = r'model.h5'
     datapath = r'PDdatas.json'
     test_X = ['在十五大精神指引下胜利前进——元旦献辞',
@@ -142,7 +141,7 @@ def main():
 
 
 
-    model =load_model(modelpath)
+    model =model.load_weights(modelpath)
     wordindex = (loadjson(datapath))['word_index']
     pre = pretext(model, test_X, wordindex).getresult()
 

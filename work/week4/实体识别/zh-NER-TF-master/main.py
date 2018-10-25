@@ -107,10 +107,19 @@ elif args.mode == 'demo':
     saver = tf.train.Saver()
     with tf.Session(config=config) as sess:
         print('============= demo =============')
+        print('============= 使用老师给的文字进行实体标注 =============')
         saver.restore(sess, ckpt_file)
+        print('Please input your file :')
+        f = open('testdata.txt', "r", encoding='gbk')  # 设置文件对象
+        str1 = f.read()  # 将txt文件的所有内容读入到字符串str中
+        f.close()  # 将文件关闭
+        #print(str1)
+        demo_sent = str1
         while(1):
-            print('Please input your sentence:')
-            demo_sent = input()
+
+            #demo_sent = input()
+
+            print ("============================输出结果为=========================")
             if demo_sent == '' or demo_sent.isspace():
                 print('See you next time!')
                 break
@@ -119,4 +128,4 @@ elif args.mode == 'demo':
                 demo_data = [(demo_sent, ['O'] * len(demo_sent))]
                 tag = model.demo_one(sess, demo_data)
                 PER, LOC, ORG = get_entity(tag, demo_sent)
-                print('PER: {}\nLOC: {}\nORG: {}'.format(PER, LOC, ORG))
+                print('PER人名: {}\nLOC地点名: {}\nORG组织名: {}'.format(PER, LOC, ORG))

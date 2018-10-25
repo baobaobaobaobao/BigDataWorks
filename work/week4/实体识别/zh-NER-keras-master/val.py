@@ -4,6 +4,11 @@ import numpy as np
 
 model, (vocab, chunk_tags) = bilsm_crf_model.create_model(train=False)
 predict_text = '中华人民共和国国务院总理周恩来在外交部长陈毅的陪同下，连续访问了埃塞俄比亚等非洲10国以及阿尔巴尼亚'
+
+f = open('testdata.txt', "r", encoding='gbk')  # 设置文件对象
+str1 = f.read()  # 将txt文件的所有内容读入到字符串str中
+f.close()  # 将文件关闭
+print (str1)
 str, length = process_data.process_data(predict_text, vocab)
 model.load_weights('model/crf.h5')
 raw = model.predict(str)[0][-length:]
@@ -12,7 +17,7 @@ result_tags = [chunk_tags[i] for i in result]
 
 per, loc, org = '', '', ''
 
-for s, t in zip(predict_text, result_tags):
+for s, t in zip(str1, result_tags):
     if t in ('B-PER', 'I-PER'):
         per += ' ' + s if (t == 'B-PER') else s
     if t in ('B-ORG', 'I-ORG'):
