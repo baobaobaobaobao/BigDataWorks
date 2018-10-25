@@ -140,12 +140,12 @@ if __name__ == "__main__":
     for  line  in  X:
         line.sort()
         x_sort.append(line)
-
     # 训练集
     x_train = x_sort[0:1000]
     #print (x_train)
-
     ####使用我们的东西来测试。
     initset=createInitSet(x_train)
-    myFptree,myHeaderTab=createTree(initset,3)
+    myFptree,myHeaderTab=createTree(initset,11)
     print (myFptree.disp())
+    a=findPrefixPath('x',myHeaderTab[199][1])
+    print   (a)

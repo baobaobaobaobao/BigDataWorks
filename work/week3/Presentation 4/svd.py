@@ -163,3 +163,15 @@ if __name__ == '__main__':
             count +=1
             print("恭喜命中1个！！！")
     print("Model Accuracy: %.2f%%" % (count/150.0 * 100))
+
+
+
+
+
+
+
+
+
+
+
+
