@@ -45,13 +45,14 @@ class pretext:
 
     def getresult(self):
         predictions = self.model.predict(self.textvec)
+        print (predictions)
         labelvec = [list(map(lambda pro:np.argmax(pro), prediction))
                     for prediction in predictions]
         print(labelvec)
 
 
 def main():
-    modelpath = r'PDmodel-crf_epoch_150_batchsize_32_embeddingDim_100_new.h5'
+    modelpath = r'PDmodel_epoch_150_batchsize_32_embeddingDim_100_new2.h5'
     datapath = r'PDdatas.json'
     test_X = ['在十五大精神指引下胜利前进——元旦献辞', '环顾全球，日益密切的世界经济联系，日新月异的科技进步，正在为各国经济的发展提供历史机遇。但是，世界还不安宁。南北之间的贫富差距继续扩大；局部冲突时有发生；不公正不合理的旧的国际政治经济秩序还没有根本改变；发展中国家在激烈的国际经济竞争中仍处于弱势地位；人类的生存与发展还面临种种威胁和挑战。和平与发展的前景是光明的，２１世纪将是充满希望的世纪。但前进的道路不会也不可能一帆风顺，关键是世界各国人民要进一步团结起来，共同推动早日建立公正合理的国际政治经济新秩序。']
     model = load_model(modelpath)
