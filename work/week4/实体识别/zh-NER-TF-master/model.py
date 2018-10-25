@@ -1,7 +1,4 @@
-# 第二步:设置模型
 import numpy as np
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
 import os, time, sys
 import tensorflow as tf
 from tensorflow.contrib.rnn import LSTMCell
@@ -60,7 +57,7 @@ class BiLSTM_CRF(object):
             word_embeddings = tf.nn.embedding_lookup(params=_word_embeddings,
                                                      ids=self.word_ids,
                                                      name="word_embeddings")
-        self.word_embeddings = tf.nn.dropout(word_embeddings, self.dropout_pl)
+        self.word_embeddings =  tf.nn.dropout(word_embeddings, self.dropout_pl)
 
     def biLSTM_layer_op(self):
         with tf.variable_scope("bi-lstm"):
@@ -72,54 +69,40 @@ class BiLSTM_CRF(object):
                 inputs=self.word_embeddings,
                 sequence_length=self.sequence_lengths,
                 dtype=tf.float32)
-            # 维持行数不变，后面的行接到前面的行后面
             output = tf.concat([output_fw_seq, output_bw_seq], axis=-1)
-            # 经过droupput处理
             output = tf.nn.dropout(output, self.dropout_pl)
 
         with tf.variable_scope("proj"):
             W = tf.get_variable(name="W",
                                 shape=[2 * self.hidden_dim, self.num_tags],
-                                # 该函数返回一个用于初始化权重的初始化程序 “Xavier” 。
-                                # 这个初始化器是用来保持每一层的梯度大小都差不多相同
                                 initializer=tf.contrib.layers.xavier_initializer(),
                                 dtype=tf.float32)
 
             b = tf.get_variable(name="b",
                                 shape=[self.num_tags],
-                                # tf.zeros_initializer()，也可以简写为tf.Zeros()
                                 initializer=tf.zeros_initializer(),
                                 dtype=tf.float32)
-            # output的形状为[batch_size,steps,cell_num]
+
             s = tf.shape(output)
-            # reshape的目的是为了跟w做矩阵乘法
-            output = tf.reshape(output, [-1, 2 * self.hidden_dim])
+            output = tf.reshape(output, [-1, 2*self.hidden_dim])
             pred = tf.matmul(output, W) + b
-            # s[1]=batch_size
+
             self.logits = tf.reshape(pred, [-1, s[1], self.num_tags])
 
     def loss_op(self):
         if self.CRF:
-            # crf_log_likelihood作为损失函数
-            # inputs：unary potentials,就是每个标签的预测概率值
-            # tag_indices，这个就是真实的标签序列了
-            # sequence_lengths,一个样本真实的序列长度，为了对齐长度会做些padding，但是可以把真实的长度放到这个参数里
-            # transition_params,转移概率，可以没有，没有的话这个函数也会算出来
-            # 输出：log_likelihood:标量;transition_params,转移概率，如果输入没输，它就自己算个给返回
-
             log_likelihood, self.transition_params = crf_log_likelihood(inputs=self.logits,
-                                                                        tag_indices=self.labels,
-                                                                        sequence_lengths=self.sequence_lengths)
+                                                                   tag_indices=self.labels,
+                                                                   sequence_lengths=self.sequence_lengths)
             self.loss = -tf.reduce_mean(log_likelihood)
 
         else:
-            # 交叉熵做损失函数
             losses = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=self.logits,
                                                                     labels=self.labels)
             mask = tf.sequence_mask(self.sequence_lengths)
             losses = tf.boolean_mask(losses, mask)
             self.loss = tf.reduce_mean(losses)
-        # 添加标量统计结果
+
         tf.summary.scalar("loss", self.loss)
 
     def softmax_pred_op(self):
@@ -154,6 +137,7 @@ class BiLSTM_CRF(object):
 
     def add_summary(self, sess):
         """
+
         :param sess:
         :return:
         """
@@ -162,6 +146,7 @@ class BiLSTM_CRF(object):
 
     def train(self, train, dev):
         """
+
         :param train:
         :param dev:
         :return:
@@ -171,7 +156,7 @@ class BiLSTM_CRF(object):
         with tf.Session(config=self.config) as sess:
             sess.run(self.init_op)
             self.add_summary(sess)
-            # epoch_num=40
+
             for epoch in range(self.epoch_num):
                 self.run_one_epoch(sess, train, dev, self.tag2label, epoch, saver)
 
@@ -181,14 +166,13 @@ class BiLSTM_CRF(object):
             self.logger.info('=========== testing ===========')
             saver.restore(sess, self.model_path)
             label_list, seq_len_list = self.dev_one_epoch(sess, test)
-            #print (label_list,seq_len_list)
             self.evaluate(label_list, seq_len_list, test)
-
 
     def demo_one(self, sess, sent):
         """
+
         :param sess:
-        :param sent:
+        :param sent: 
         :return:
         """
         label_list = []
@@ -203,6 +187,7 @@ class BiLSTM_CRF(object):
 
     def run_one_epoch(self, sess, train, dev, tag2label, epoch, saver):
         """
+
         :param sess:
         :param train:
         :param dev:
@@ -211,16 +196,13 @@ class BiLSTM_CRF(object):
         :param saver:
         :return:
         """
-        # 计算出多少个batch，计算过程：(50658+64-1)//64=792
         num_batches = (len(train) + self.batch_size - 1) // self.batch_size
-        # 记录开始训练的时间
+
         start_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        # 产生每一个batch
         batches = batch_yield(train, self.batch_size, self.vocab, self.tag2label, shuffle=self.shuffle)
         for step, (seqs, labels) in enumerate(batches):
-            # sys.stdout 是标准输出文件，write就是往这个文件写数据
+
             sys.stdout.write(' processing: {} batch / {} batches.'.format(step + 1, num_batches) + '\r')
-            # step_num=epoch*792+step+1
             step_num = epoch * num_batches + step + 1
             feed_dict, _ = self.get_feed_dict(seqs, labels, self.lr, self.dropout_keep_prob)
             _, loss_train, summary, step_num_ = sess.run([self.train_op, self.loss, self.merged, self.global_step],
@@ -233,7 +215,6 @@ class BiLSTM_CRF(object):
             self.file_writer.add_summary(summary, step_num)
 
             if step + 1 == num_batches:
-                # 训练的最后一个batch保存模型
                 saver.save(sess, self.model_path, global_step=step_num)
 
         self.logger.info('===========validation / test===========')
@@ -242,20 +223,18 @@ class BiLSTM_CRF(object):
 
     def get_feed_dict(self, seqs, labels=None, lr=None, dropout=None):
         """
+
         :param seqs:
         :param labels:
         :param lr:
         :param dropout:
         :return: feed_dict
         """
-        # seq_len_list用来统计每个样本的真实长度
-        # word_ids就是seq_list，padding后的样本序列
         word_ids, seq_len_list = pad_sequences(seqs, pad_mark=0)
 
         feed_dict = {self.word_ids: word_ids,
                      self.sequence_lengths: seq_len_list}
         if labels is not None:
-            # labels经过padding后，喂给feed_dict
             labels_, _ = pad_sequences(labels, pad_mark=0)
             feed_dict[self.labels] = labels_
         if lr is not None:
@@ -263,11 +242,11 @@ class BiLSTM_CRF(object):
         if dropout is not None:
             feed_dict[self.dropout_pl] = dropout
 
-        # seq_len_list用来统计每个样本的真实长度
         return feed_dict, seq_len_list
 
     def dev_one_epoch(self, sess, dev):
         """
+
         :param sess:
         :param dev:
         :return:
@@ -281,20 +260,18 @@ class BiLSTM_CRF(object):
 
     def predict_one_batch(self, sess, seqs):
         """
+
         :param sess:
         :param seqs:
         :return: label_list
                  seq_len_list
         """
-        # seq_len_list用来统计每个样本的真实长度
         feed_dict, seq_len_list = self.get_feed_dict(seqs, dropout=1.0)
 
         if self.CRF:
-            # transition_params代表转移概率，由crf_log_likelihood方法计算出
             logits, transition_params = sess.run([self.logits, self.transition_params],
                                                  feed_dict=feed_dict)
             label_list = []
-            # 打包成元素形式为元组的列表[(logit,seq_len),(logit,seq_len),( ,),]
             for logit, seq_len in zip(logits, seq_len_list):
                 viterbi_seq, _ = viterbi_decode(logit[:seq_len], transition_params)
                 label_list.append(viterbi_seq)
@@ -306,6 +283,7 @@ class BiLSTM_CRF(object):
 
     def evaluate(self, label_list, seq_len_list, data, epoch=None):
         """
+
         :param label_list:
         :param seq_len_list:
         :param data:
@@ -320,18 +298,16 @@ class BiLSTM_CRF(object):
         for label_, (sent, tag) in zip(label_list, data):
             tag_ = [label2tag[label__] for label__ in label_]
             sent_res = []
-            if len(label_) != len(sent):
+            if  len(label_) != len(sent):
                 print(sent)
                 print(len(label_))
                 print(tag)
             for i in range(len(sent)):
                 sent_res.append([sent[i], tag[i], tag_[i]])
             model_predict.append(sent_res)
-        epoch_num = str(epoch + 1) if epoch != None else 'test'
+        epoch_num = str(epoch+1) if epoch != None else 'test'
         label_path = os.path.join(self.result_path, 'label_' + epoch_num)
         metric_path = os.path.join(self.result_path, 'result_metric_' + epoch_num)
-        print ("输出model=predict")
-        #print (label_path)
-        #print (model_predict)
         for _ in conlleval(model_predict, label_path, metric_path):
             self.logger.info(_)
+

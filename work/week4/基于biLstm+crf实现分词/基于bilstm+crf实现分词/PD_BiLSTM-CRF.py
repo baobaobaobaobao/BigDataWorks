@@ -11,6 +11,7 @@ from keras.utils import np_utils
 from keras.models import Sequential, Model
 from keras.layers import Dense, Activation, Embedding, LSTM, Dropout, Bidirectional, Input, Masking, TimeDistributed
 from keras_contrib.layers import CRF
+from  keras_contrib.utils import  save_load_utils
 
 ###########加载数据
 def load(datapath):
@@ -44,8 +45,7 @@ class nn:
         self.labels = np.array(labels)
         self.wordvocab = wordvocab
 
-    def trainingModel(self):
-
+    def constructModel(self):
         ######模型所需要参数
         vocabSize = len(self.wordvocab)
         embeddingDim = 100  # the vector size a word need to be converted
@@ -53,14 +53,12 @@ class nn:
         outputDims = 4 + 1
         # embeddingWeights = np.zeros((len(word_index) + 1, EMBEDDING_DIM))
         hiddenDims = 100
-        batchSize = 32
+        self.batchSize = 32
         # NUM_CLASS = 4
 
-        train_X = self.dataset
-        train_Y = np_utils.to_categorical(self.labels, outputDims)
+        self.train_X = self.dataset
+        self.train_Y = np_utils.to_categorical(self.labels, outputDims)
 
-        print(train_X.shape)
-        print(train_Y.shape)
         max_features = vocabSize + 1
 
         word_input = Input(
@@ -86,12 +84,23 @@ class nn:
             optimizer='adam',
             loss=crf_layer.loss_function,
             metrics=[crf_layer.accuracy])
+        return model
+
+    def trainingModel(self):
+
+        model = self.constructModel()
         #print (crf_layer.accuracy)
-        result = model.fit(train_X, train_Y, batch_size=batchSize, epochs=5)
+        result = model.fit(self.train_X, self.train_Y, batch_size=self.batchSize, epochs=1)
         #print ("我得结果")
         #print  (result)
-        model.save(
-            'PDmodel-crf_epoch_150_batchsize_32_embeddingDim_100_new.h5')
+        # model.save(
+        #     'PDmodel-crf_epoch_150_batchsize_32_embeddingDim_100_new.h5')
+        #save_load_utils.save_all_weights(model,'week4.h5')
+        model.save_weights("model.h5")
+
+    def TryLoadModel(self):
+        tempModel = self.constructModel()
+        save_load_utils.load_all_weights(tempModel, 'week4.h5')
 
     def save2json(self, json_string, savepath):
         with open(savepath, 'w', encoding='utf8') as f:
@@ -104,9 +113,12 @@ def main():
     dataset, labels, wordvocab = load(r'PDdatas.json')
     #送入模型进行训练
     trainLSTM = nn(dataset, labels, wordvocab).trainingModel()
+    #print('----- try load model -----')
+    #trainLSTM.TryLoadModel()
 
 
 if __name__ == '__main__':
+    print(keras.__version__)
     ts = dt.now()
     main()
     te = dt.now()
