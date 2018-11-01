@@ -246,7 +246,7 @@ def testRbf(k1=1.3):
         kernelEval = kernelTrans(sVs, datMat[i, :], ('rbf', k1))
         predict = kernelEval.T * multiply(labelSV, alphas[svInd]) + b
         if sign(predict) != sign(labelArr[i]): errorCount += 1
-    print "the test error rate is: %f" % (float(errorCount) / m)
+    print "the week1 error rate is: %f" % (float(errorCount) / m)
 
 
 def img2vector(filename):
@@ -302,7 +302,7 @@ def testDigits(kTup=('rbf', 10)):
         kernelEval = kernelTrans(sVs, datMat[i, :], kTup)
         predict = kernelEval.T * multiply(labelSV, alphas[svInd]) + b
         if sign(predict) != sign(labelArr[i]): errorCount += 1
-    print "the test error rate is: %f" % (float(errorCount) / m)
+    print "the week1 error rate is: %f" % (float(errorCount) / m)
 
 
 '''#######********************************

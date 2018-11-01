@@ -1,5 +1,7 @@
 import string
 
+import  pprint
+
 def loadData(filePath):
     f = open(filePath)
     vector_dict = {}

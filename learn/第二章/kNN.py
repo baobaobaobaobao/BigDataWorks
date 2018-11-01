@@ -32,6 +32,7 @@ def classify0(inX, dataSet, labels, k):
 
 '''
 从文件中拿东西出来
+
 '''
 
 def file2matrix(filename):

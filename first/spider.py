@@ -50,7 +50,7 @@ def get_attractions(url,n,data=None):
             else:
                 break
 
-        print n,"--",data['title'],"@",strs,"@",data['pubdate']
+        print （n,"--",data['title'],"@",strs,"@",data['pubdate']）
         n += 1
     return n
 count = 1

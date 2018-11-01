@@ -9,6 +9,8 @@ Created on 2017年10月28日
 import math
 import numpy as np
 from sklearn import metrics
+
+
 def NMI(A,B):
     #样本点数
     total = len(A)
@@ -42,6 +44,6 @@ if __name__ == '__main__':
     A = np.array([1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3])
     B = np.array([1,2,1,1,1,1,1,2,2,2,2,3,1,1,3,3,3])
     print ('自己实现的方法')
-    print NMI(A,B)
+    print (NMI(A,B))
     print ('用python实现的方法')
-    print metrics.normalized_mutual_info_score(A,B)
+    print (metrics.normalized_mutual_info_score(A,B))

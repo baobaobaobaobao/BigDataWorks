@@ -21,8 +21,8 @@ print (mytree)
 
 
 
-mydat,labels=trees.createDataSet()
-mytree=trees.retrieveTree(0)
+mydat,labels= trees.createDataSet()
+mytree= trees.retrieveTree(0)
 
-trees.storeTree(mytree,'classStorage.txt')
+trees.storeTree(mytree, 'classStorage.txt')
 print (trees.grabTree('classStorage.txt'))
