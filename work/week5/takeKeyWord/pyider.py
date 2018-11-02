@@ -68,19 +68,20 @@ def   getHigh(allData):
     for j in range(0,len(allData)):
         seg_str = jieba.cut(allData[j])
         result = dict(Counter(seg_str))
-        high=[]
+        high=''
         for k, v in result.items():
             if k == '':
                 continue
-            elif v < 10 and v > 3:
-                high.append([k, str(v)])
+            elif v < 10 and v > 3 and len(k)>=2:
+                high+=(str(dict(Counter([k, str(v)]))))
         #print (allDate[j], high)
-        allDateAndWord[allDate[j]]=high
+
+        allDateAndWord[allDate[j]]=json.dumps(high.replace('}{',','), ensure_ascii=False)
 
 
 
 def WriteToJson(allDateAndWord):
-    with open("record.json", "w", encoding='utf-8') as f:
+    with open("records.json", "w", encoding='utf-8') as f:
         json.dump(allDateAndWord, f, ensure_ascii=False)
     print("加载入文件完成...")
 
