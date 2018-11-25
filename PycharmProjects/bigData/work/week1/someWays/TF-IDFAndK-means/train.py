@@ -14,7 +14,7 @@ import codecs
 # ---------------------------将papers.txt文档进行分词处理---------------------------#
 def loadDataSet():
     words = []  # assume last column is target value
-    trainText = open('papers.txt')
+    trainText = open('papers.txt',encoding='UTF-8')
     for line in trainText:
         title, author, pubyear = line.strip().split('@', 2)  # 用@分割3次
         title = title.split()  ##默认删除空白符（包括'\n', '\r', '\t', ' ')

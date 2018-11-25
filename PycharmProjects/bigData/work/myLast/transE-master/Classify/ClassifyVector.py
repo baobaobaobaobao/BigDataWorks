@@ -7,7 +7,6 @@ import sys
 import csv
 from pylab import *
 # Reading the file only requires the second column of data
-
 def loadEntityDataToArray():
     csvfile = open('../Vector/entityVector.csv', 'r')  # Python3.5这里不要用rb
     reader = csv.reader(csvfile)
@@ -21,6 +20,8 @@ def loadEntityDataToArray():
         i += 1
     csvfile.close()
     return  entitydatamat
+
+
 def LoadRelationVectorToArray():
     csvfile = open('../Vector/relationVector.csv', 'r')  # Python3.5这里不要用rb
     reader = csv.reader(csvfile)
@@ -29,20 +30,16 @@ def LoadRelationVectorToArray():
     i=0
     for line in reader:
         train.append(line[1])
-        #print (line[1])
         relationdatamat[i,:]=mat(line[1])
         i+=1
     csvfile.close()
     return    relationdatamat
-
-
-# Clustering to relationVector.txt
+# Clustering to relationVector.csv
 def   Cluster(Vector):
-
         X=Vector
         estimator = KMeans(n_clusters=10)#构造聚类器
         estimator.fit(X)#聚类
-        print (X)
+       # print (X)
         label_pred = estimator.labels_ #获取聚类标签
         #绘制k-means结果
         x0 = X[label_pred == 0]
@@ -61,12 +58,42 @@ def   Cluster(Vector):
         plt.show()
         return 1
 
+
+def PutRelationVectorInto_dict():
+    csvfile = open('../Vector/relationVector.csv', 'r')  # Python3.5这里不要用rb
+    reader = csv.reader(csvfile)
+    relationdatamat = np.zeros((1345, 100))  # 初始化矩阵
+    train = []
+    i = 0
+    for line in reader:
+        train.append(line[1])
+        relationdatamat[i, :] = mat(line[1])
+        i += 1
+    csvfile.close()
+    return relationdatamat
+
+
+# To construct a martax include (13495,100).and every  row  represtent   two entity and relationVectro
+
+
+
+
+
+
+
+
+
+
+
+
 if __name__ == "__main__":
     print ('Reading the file only requires the second column of data  To  Array"')
     entityVectorArray=loadEntityDataToArray()
     relationVectorArray=LoadRelationVectorToArray()
     print (relationVectorArray.shape)
-    Cluster(relationVectorArray)
+    print('product K-Means classify"')
+
+    #Cluster(relationVectorArray)
 
 
 

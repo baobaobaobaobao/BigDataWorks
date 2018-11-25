@@ -56,7 +56,7 @@ class TransE:
                 print("第%d次循环"%cycleIndex)
                 print(self.loss)
                 self.writeRelationVector("./CVector/relationVector.csv")
-                self.writeEntilyVector("./CVector/entityVector.txt")
+                self.writeEntilyVector("./CVector/entityVector.csv")
                 self.loss = 0
 
     def getSample(self, size):
@@ -248,7 +248,7 @@ if __name__ == '__main__':
     transE = TransE(entityList,relationList,tripleList, margin=1, dim = 100)
     print("TranE初始化")
     transE.initialize()
-    transE.transE(100)
+    transE.transE(500)
     transE.writeRelationVector("./Vector/relationVector.csv")
     transE.writeEntilyVector("./Vector/entityVector.csv")
     print ("已经生成关系以及实体的对应矩阵了。")
