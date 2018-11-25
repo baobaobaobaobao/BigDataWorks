@@ -32,7 +32,6 @@ def LoadRelationVectorToArray():
         #print (line[1])
         relationdatamat[i,:]=mat(line[1])
         i+=1
-
     csvfile.close()
     return    relationdatamat
 
@@ -67,7 +66,6 @@ if __name__ == "__main__":
     entityVectorArray=loadEntityDataToArray()
     relationVectorArray=LoadRelationVectorToArray()
     print (relationVectorArray.shape)
-
     Cluster(relationVectorArray)
 
 
